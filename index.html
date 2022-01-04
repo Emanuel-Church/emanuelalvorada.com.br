@@ -46,6 +46,10 @@
     <link rel="apple-touch-icon" href="/public/image/apple.png">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+        @font-face {
+            font-family: "Azonix";
+            src: url(https://upload.emanuelalvorada.com.br/search/font/Azonix.woff);
+        }
     </style>
 
     <meta charset="utf-8">
@@ -101,12 +105,113 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit condimentum curabitur, ad gravida phasellus natoque in congue fusce purus tempus mauris, sodales et penatibus quisque convallis nisl eu nunc. Himenaeos vulputate odio efficitur laoreet sapien orci tincidunt ex nostra lobortis facilisi enim, eget vehicula est suscipit tristique dignissim euismod cursus dapibus mi. Congue ut est luctus enim quisque taciti hac a etiam non, netus mollis sit natoque posuere curabitur elit dis praesent ullamcorper, habitasse porta nam bibendum quis phasellus fusce massa id.</p>
                     <!-- Button Hover Effect inspired by https://codepen.io/foxeisen/pen/bqZxLa -->
                     <!-- Button Universal -->
-                    <a class="___next-info_abount" href="/nosso-chamado/" title="Ver Mais =>">Ver mais</a>
+                    <a class="___next-info_abount" href="/nosso-historia/" title="Ver Mais =>">Ver mais</a>
                 </section>
             </div>
         </section>
         <section class="_ime-galeria" id="galeria">
-            <!-- Galeria / Style -->
+            <div class="__galeria-grid">
+                <header>
+                    <div class="__block-text">
+                        <h3 class="___galeria-title">Galeria da<br>Emanuel</h3>
+                        <a class="___galeria-a" href="/galeria/" title="Galeria da Emanuel">Ver mais</a>
+                    </div>
+                    <div class="__block-navegation">
+                        <div class="__galeria-left" id="__galeria-left"></div>
+                        <div class="__galeria-right" id="__galeria-right"></div>
+                    </div>
+                </header>
+                <main class="___base-box_texts">
+                    <section class="___galeria-modulo_1">
+                        <div class="__galeria___image-div">
+                            <img src="" alt="">
+                        </div>
+                        <div class="__galeria__descri-title___5425block">
+                            <p></p>
+                        </div>
+                    </section>
+                    <section class="___galeria-modulo_2">
+                        <div class="__galeria___image-div">
+                            <img src="" alt="">
+                        </div>
+                        <div class="__galeria__descri-title___5425block">
+                            <p></p>
+                        </div>
+                    </section>
+                    <section class="___galeria-modulo_3">
+                        <div class="__galeria___image-div">
+                            <img src="" alt="">
+                        </div>
+                        <div class="__galeria__descri-title___5425block">
+                            <p></p>
+                        </div>
+                    </section>
+                    <section class="___galeria-modulo_4">
+                        <div class="__galeria___image-div">
+                            <img src="" alt="">
+                        </div>
+                        <div class="__galeria__descri-title___5425block">
+                            <p></p>
+                        </div>
+                    </section>
+                    <section class="___galeria-modulo_5">
+                        <div class="__galeria___image-div">
+                            <img src="" alt="">
+                        </div>
+                        <div class="__galeria__descri-title___5425block">
+                            <p></p>
+                        </div>
+                    </section>
+                    <section class="___galeria-modulo_6">
+                        <div class="__galeria___image-div">
+                            <img src="" alt="">
+                        </div>
+                        <div class="__galeria__descri-title___5425block">
+                            <p></p>
+                        </div>
+                    </section>
+                    <section class="___galeria-modulo_7">
+                        <div class="__galeria___image-div">
+                            <img src="" alt="">
+                        </div>
+                        <div class="__galeria__descri-title___5425block">
+                            <p></p>
+                        </div>
+                    </section>
+                    <section class="___galeria-modulo_8">
+                        <div class="__galeria___video-div">
+                            <video src="" width="100%" height="100%" controls autoplay muted loop></video>
+                        </div>
+                        <div class="__galeria__descri-title___5425block">
+                            <p></p>
+                        </div>
+                    </section>
+                    <section class="___galeria-modulo_9">
+                        <div class="__galeria___image-div">
+                            <img src="" alt="">
+                        </div>
+                        <div class="__galeria__descri-title___5425block">
+                            <p></p>
+                        </div>
+                    </section>
+                    <section class="___galeria-modulo_10">
+                        <div class="__galeria___video-div">
+                            <video src="" width="100%" height="100%" controls autoplay muted loop></video>
+                        </div>
+                        <div class="__galeria__descri-title___5425block">
+                            <p></p>
+                        </div>
+                    </section>
+                    <section class="___galeria-modulo_11">
+                        <div class="__galeria___video-div">
+                            <video src="" width="100%" height="100%" controls autoplay muted loop></video>
+                        </div>
+                        <div class="__galeria__descri-title___5425block">
+                            <p></p>
+                        </div>
+                    </section>
+                </main>
+            </div>
         </section>
         <section class="_ime-base" id="base">
             <div class="__base-grid">
@@ -198,7 +303,7 @@
         <section class="_ime-agenda" id="agenda">
             <!-- Agenda / Style -->
         </section>
-        <section class="_ime-contato" id="contato">
+        <section clas-s="_ime-contato" id="contato">
             <div class="__contato-image"></div>
             <div class="__contato-form">
                 <form action="https://formsubmit.co/email@exemple.com.br" method="post" class="_ime-contato__form" id="_ime__contato">
@@ -304,7 +409,11 @@
                             <ol>
                                 <li>
                                     <a href="http://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                                </li>
+                                <li>
                                     <a href="http://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                                </li>
+                                <li>
                                     <a href="http://youtube.com/" target="_blank" rel="noopener noreferrer">Youtube</a>
                                 </li>
                             </ol>
@@ -319,7 +428,9 @@
         </section>
     </footer>
     <!-- Back to To -->
-
+    <a href="#header" class="__ime-back-top" title="Voltar ao Topo" id="back-top">
+        <!-- <h6>Top</h6> No local do H6 / Object SVG -->
+    </a>
 </body>
 <script src="/public/js/copyright.js"></script>
 </html>
