@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Página não Encontrada | Igreja Emanuel</title>
+    <meta name="description" content="Parece que a página que está procurando que foi movida ou não existe.">
+    <meta name="robots" content="none">
+    <meta name="author" content="Igreja Emanuel | I.M.E">
+    <meta name="keywords" content="Igreja, Igreja Emanuel, Igreja Evangelica">
+
+    <meta property="og:type" content="page">
+    <meta property="og:url" content="https://emanuelalvorada.com.br/404/">
+    <meta property="og:title" content="Página não Encontrada | Igreja Emanuel">
+    <meta property="og:image" content="https://upload.emanuelalvorada.com.br/search/brand/graph.png">
+    <meta property="og:description" content="Parece que a página que está procurando que foi movida ou não existe.">
+
+    <meta property="article:author" content="Igreja Emanuel | I.M.E">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:title" content="Página não Encontrada | Igreja Emanuel">
+    <meta name="twitter:creator" content="@">
+    <meta name="twitter:description" content="Parece que a página que está procurando que foi movida ou não existe.">
+
+    <!-- Tag Manager -->
+    <script>
+	    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	    })(window,document,'script','dataLayer','GTM-P6P8BT9');
+    </script>
+
+    <!-- Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DKDDJLLY6D"></script>
+    <script>
+	    window.dataLayer = window.dataLayer || [];
+	    function gtag(){dataLayer.push(arguments);}
+	    gtag('js', new Date());
+
+	    gtag('config', 'G-DKDDJLLY6D');
+    </script>
+
+    <!-- Page / Config -->
+    <link rel="stylesheet" href="/public/css/err.css">
+    <link rel="shortcut icon" href="/next/my/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/next/my/apple.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+        @font-face {
+            font-family: "Azonix";
+            src: url(https://upload.emanuelalvorada.com.br/search/font/Azonix.woff);
+        }
+    </style>
+
+    <meta charset="utf-8">
+    <meta name="language" content="pt-BR">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Start Google Tag Manager (noscript) -->
+	<noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6P8BT9" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="_ime-header" id="header">
+    </header>
+    <main class="_ime-main" id="main">
+        <section class="__ime-err">
+            <div class="___ime-text_err">
+                <h1>404</h1>
+                <p>Parece que está perdido, quer um mapa?</p>
+                <nav class="__ime-maps">
+                    <a href="http://emanuelalvorada.com.br/" class="__ime-home">Home</a>
+                    <a href="http://emanuelalvorada.com.br/sitemap/" class="__ime-maps">SiteMap</a>
+                </nav>
+            </div>
+        </section>
+    </main>
+    <footer class="_ime-footer" id="footer">
+
+    </footer>
+</body>
+</html>
