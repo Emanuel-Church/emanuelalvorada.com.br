@@ -1104,3 +1104,7 @@
         margin-top: 20px !important;
     }
 }
+
+._ime-contato input, ._ime-contato textarea {
+    border-radius: 0 !important;
+}
