@@ -1075,3 +1075,32 @@
         padding: 0 10px;
     }
 }
+
+/* V.1.2 */
+
+._ime__main h3 {
+    font: var(--font-secondary) !important;
+    font-size: 35px !important;
+}
+
+._ime-historia strong {
+    font-weight: bold;
+}
+
+.__info-sociais {
+    gap: 0;
+}
+
+.facebook-8526 {
+    margin: 0 2vw;
+}
+
+.__ime-back-top {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .__oferta-info_modulo__2 {
+        margin-top: 20px !important;
+    }
+}
