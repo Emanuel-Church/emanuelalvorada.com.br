@@ -1,0 +1,187 @@
+:root {
+    /* Color */
+    --color-one: #A65D34;
+    --color-two: #D7A43A;
+    --color-three: #018DCA;
+    --color-four: #B10338;
+    --color-five: #4D8C1E;
+    --color-six: #050505;
+    --color-seven: #BE0000;
+    --color-eight: #D9E3E4;
+    --color-nine: #F7F7F7;
+    --color-ten: #B6B6B6;
+    --color-eleven: #B5020B;
+    --color-twelve: #0B0D17;
+
+    /* Linear */
+    --line-one: linear-gradient(90deg, #B5020B 10.42%, #FC7777 82.81%);
+    --line-two: linear-gradient(90deg, #0091C5 0%, #D9E3E4 77.14%);
+    --line-three:linear-gradient(90deg, #B5020B 10.42%, rgba(252, 119, 119, 0) 82.81%);
+
+    /* Font */
+    --font-primary: 800 40px "Azonix", "Inter", Arial;
+    --font-secondary: 700 25px "Rubik", "Inter", Arial;
+    --font-tertiary: 500 18px "Inter", Arial;
+
+    /* ScrollBar */
+    --scroll-bg: #F7F7F7;
+    --scroll-bar: #B6B6B6;
+
+    /* Outros */
+    --animation: 0.5s;
+    --dalay: 0.3s;
+    --hover: #B5020B;
+    --icon: 3rem;
+    --nones: none;
+    --icon-color: #a8a8a8;
+}
+
+/* Document / Styles */
+
+._ime__footer {
+    margin-top: 50px;
+}
+
+/* Banner / Home */
+
+._ime-home {
+    margin-bottom: 50px;
+}
+
+.___home-info {
+    position: absolute;
+    z-index: 99;
+}
+
+.___home-info {
+    height: 100%;
+    width: -webkit-fill-available;
+    max-height: 40rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.___home-info {
+    color: var(--color-eight);
+}
+
+.___home-info h1 {
+    font: var(--font-primary);
+    font-size: 5rem;
+    letter-spacing: 1.5rem;
+    line-height: 6rem;
+
+    text-align: center;
+}
+
+.___home-backg {
+    position: relative;
+}
+
+.background__home____effect {
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 40rem;
+    position: absolute;
+}
+
+.background__home____image {
+    background-image: url(http://upload.emanuelalvorada.com.br/search/image/1/126.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+    width: 100%;
+    height: 40rem;
+
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .___home-info h1 {
+        font-size: 3rem;
+        line-height: 3.8rem;
+        letter-spacing: .8rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .___home-info section {
+        padding: 0 10px;
+    }
+
+    .___home-info h1 {
+        font-size: 2.5rem;
+        line-height: 3.8rem;
+        letter-spacing: .5rem;
+    }
+}
+
+/* Document / Styles */
+
+._ime-page_historia {
+    max-width: 600px;
+    margin: auto;
+}
+
+._ime-page_historia ul {
+    display: grid;
+    gap: 18px;
+}
+
+._ime-page_historia li {
+    font: var(--font-tertiary);
+    font-size: 1rem;
+    text-align: justify;
+}
+
+._ime-page_historia strong {
+    font-weight: bold;
+}
+
+._ime-page_historia h4 {
+    font: var(--font-secondary);
+}
+
+._ime-page_historia ol {
+    display: grid;
+    gap: 7px;
+}
+
+._ime-page_historia p {
+    text-align: center;
+    padding: 10px 15px;
+
+    color: var(--color-nine);
+}
+
+._ime-page_historia div {
+    width: 16rem;
+}
+
+.g585226 {
+    background: #353636;
+    border-radius: 8px;
+}
+
+.r585226 {
+    background: #B5020B;
+    border-radius: 8px;
+}
+
+.y585226 {
+    background: #D7A43A;
+    border-radius: 8px;
+}
+
+.ge585226 {
+    background: #4D8C1E;
+    border-radius: 8px;
+}
+
+.b585226 {
+    background: #018DCA;
+    border-radius: 8px;
+}

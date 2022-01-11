@@ -1108,3 +1108,52 @@
 ._ime-contato input, ._ime-contato textarea {
     border-radius: 0 !important;
 }
+
+.__next-agenda {
+    font: var(--font-tertiary);
+    font-size: 15px;
+    color: var(--color-twelve);
+
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    text-decoration: none;
+
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.__next-agenda:hover {
+    transition: var(--animation);
+
+    color: var(--hover);
+    font-weight: 700;
+}
+
+.__next-agenda::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background: var(--line-one);
+    -webkit-transform-origin: bottom right;
+    transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1), -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.__next-agenda:hover::after {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+}
