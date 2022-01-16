@@ -50,7 +50,10 @@
 }
 
 ._ime__main h2 {
+    font: var(--font-secondary);
+    font-size: 45px;
 
+    margin-bottom: 15px;
 }
 
 .termos h4 {
@@ -73,4 +76,22 @@
     text-align: justify;
 
     margin-bottom: 20px;
+}
+
+.termos a {
+    font: var(--font-tertiary);
+    font-size: 1.2rem;
+
+    line-height: 27px;
+
+    color: var(--color-twelve);
+
+    text-align: justify;
+
+    margin-bottom: 20px;
+}
+
+.termos a:hover {
+    transition: var(--animation);
+    color: var(--hover);
 }

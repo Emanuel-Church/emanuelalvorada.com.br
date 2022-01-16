@@ -9,23 +9,7 @@ window.addEventListener("scroll", function () {
 });
 
 // ! Botão de Voltar ao topo
-jQuery(document).ready(function ($) {
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 0) {
-      $("#back-top").fadeIn();
-    } else {
-      $("#back-top").fadeOut();
-    }
-  });
-
-  //Scroll body para 0px ao clicar
-  $("#back-top").click(function () {
-    $("body,html").animate(
-      {
-        scrollTop: 0,
-      },
-      800
-    );
-    return false;
-  });
+var btn = $("#back-top");
+btn.click(function() {
+  $('html, body').animate({scrollTop:0}, 'slow');
 });
