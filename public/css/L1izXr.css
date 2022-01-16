@@ -262,3 +262,14 @@
     background-image: url(https://upload.emanuelalvorada.com.br/search/image/1/158.jpg);
     background-position: top;
 }
+
+/* V.1.4.2 */
+
+.___home-info h1 {
+    width: fit-content;
+    text-transform: uppercase;
+}
+
+.grups span {
+    user-select: none;
+}

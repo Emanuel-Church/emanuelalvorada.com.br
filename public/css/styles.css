@@ -591,3 +591,9 @@ body::-webkit-scrollbar-thumb {
     width: auto;
     height: auto;
 }
+
+/* V1.4.2 */
+
+html {
+  scroll-behavior: smooth;
+}
