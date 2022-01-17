@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="/public/css/home.css">
     <link rel="stylesheet" href="/public/css/events.css">
     <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="shortcut icon" href="/public/my/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/public/my/favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="/public/my/apple.png">
@@ -59,8 +60,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
-<body class="body">
+<body class="body" id="body">
     <header class="_ime__header" id="header">
         <section>
             <h1 class="__h1___emanuel-log" id="__h1___emanuel-log">Igreja Emanuel</h1>
@@ -516,9 +516,9 @@
                                             <p><strong>CNPJ:</strong>
                                                 <button id="clipboardCopy" class="__ime-copy_pix">
                                                     43.619.173/0001-03
-                                                    <input type="text" value="43.619.173/0001-03"
-                                                        class="___ime_pix-effect" id="__ime-pix">
-                                                </button </p>
+                                                    <input type="text" value="43.619.173/0001-03" class="___ime_pix-effect" id="__ime-pix">
+                                                </button> 
+                                            </p>
                                         </div>
                                         <!-- Button Hover Effect inspired by https://codepen.io/foxeisen/pen/bqZxLa -->
                                         <!-- Button Universal -->
@@ -715,27 +715,24 @@
         </section>
     </footer>
     <!-- Back to To -->
-    <button id="back-to-top" class="__ime-back-top">
+    <button id="back-top" class="__ime-back-top">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="9 18 15 12 9 6"></polyline>
         </svg>
     </button>
+    <!-- Pop Ups -->
+    <div class="alert_pop-up-pix" id="pixalert" style="display: none;">
+        <p>texts</p>
+    </div>
 </body>
-<!-- Bibliotecas / JS -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="http://areaaperta.com/nicescroll/js/jquery.nicescroll.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-<!-- JS / Codes -->
-<script src="/public/javascript/E9nufzF.js"></script> <!-- Menu / JS -->
-<script src="/public/javascript/QegTOcL.js"></script> <!-- Scroll / JS -->
-<script src="/public/javascript/kya0kdF.js"></script> <!-- Back to Top / JS -->
-<script src="/public/javascript/82oHD6Q.js"></script> <!-- Copyright / JS -->
-<script src="/public/javascript/0bOwGjW.js"></script> <!-- Contato / JS -->
-<script src="/public/javascript/KPaZd5G.js"></script> <!-- CopyPix / JS -->
-<script src="/public/javascript/n86PKlc.js"></script> <!-- Scroll Mouse / JS -->
+<script src="/assets/js/main.js"></script>
+<script src="/public/javascript/KPaZd5G.js"></script>
 
 <!-- Swiper.JS / JavaScipt -->
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <script src="/public/javascript/swiper.js"></script>
-
 </html>
