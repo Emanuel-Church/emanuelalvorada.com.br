@@ -42,7 +42,7 @@
     left: -186px;
 }
 
-.badge-container {
+.grecaptcha-badge {
     display: flex;
     justify-content: flex-end;
     overflow: hidden;
@@ -53,6 +53,6 @@
     transition: linear 100ms width;
 }
 
-.badge-container:hover {
+.grecaptcha-badge:hover {
     width: 256px;
 }
