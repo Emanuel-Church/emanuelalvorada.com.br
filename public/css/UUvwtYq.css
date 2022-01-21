@@ -39,20 +39,21 @@
 /* Config / reCaptha */
 
 .grecaptcha-badge {
-    left: -186px;
+    left: -186px !important;
+    right: inherit !important;
 }
 
 .grecaptcha-badge {
-    display: flex;
-    justify-content: flex-end;
-    overflow: hidden;
-    width: 70px;
-    height: 60px;
-    margin: 0 auto;
-    box-shadow: 0 0 4px #ddd;
-    transition: linear 100ms width;
+    display: flex !important;
+    justify-content: flex-end !important;
+    overflow: hidden !important;
+    width: 70px !important;
+    height: 60px !important;
+    margin: 0 auto !important;
+    box-shadow: 0 0 4px #ddd !important;
+    transition: linear 100ms width !important;
 }
 
 .grecaptcha-badge:hover {
-    width: 256px;
+    width: 256px !important;
 }
