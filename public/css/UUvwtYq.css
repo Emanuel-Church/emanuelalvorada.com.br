@@ -39,7 +39,7 @@
 /* Config / reCaptha */
 
 .grecaptcha-badge {
-    left: -186px !important;
+    left: -5px !important;
     right: inherit !important;
 }
 
