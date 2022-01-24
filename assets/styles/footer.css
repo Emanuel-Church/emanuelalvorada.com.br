@@ -282,3 +282,12 @@
         margin-right: 10px;
     }
 }
+
+/* V1.5.2 */
+
+@media screen and (max-width: 375px) {
+    .contato svg {
+        width: inherit;
+        margin-right: 10px;
+    }
+}
