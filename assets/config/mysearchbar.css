@@ -1,15 +1,22 @@
 #sb-search-input-example .sb-content.sb-hero {
   background: none;
   background-color: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #sb-search-input-example .sb-search.sb-hero {
   background-color: transparent;
   border: 2px solid var(--color-ony);
+
+  margin: 0;
 }
 
 #sb-search-input-example:hover .sb-search.sb-hero:hover {
-  border: 2px solid var(--color-ony);
+  transition: var(--animation);
+  border: 2px solid var(--hover-threy);
 }
 
 #sb-search-input-example .sb-search-field {
