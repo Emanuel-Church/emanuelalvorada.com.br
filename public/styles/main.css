@@ -76,7 +76,7 @@
 ._ime-subheader,
 ._ime-sobfooter,
 ._ime-subfooter {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 ._ime-header,
@@ -197,7 +197,7 @@
 
 .logo_content,
 ._menu {
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 
 .logo_content a {
@@ -303,30 +303,18 @@
 }
 
 ._ime-footer {
-  padding: 2rem 1rem;
+  padding: 2rem;
 }
 
 .__footer-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 3rem;
+  gap: 5vw;
 }
 
 .__footer-list li {
   display: inherit;
-  justify-content: center;
-
-  width: fit-content;
-}
-
-.__footer-list li:nth-child(1),
-.__footer-list li:nth-child(5) {
   justify-content: start;
-}
-
-.__footer-list li:nth-child(4) {
-  justify-content: end;
-  width: auto;
 }
 
 .__footer-list h6 {
@@ -343,6 +331,14 @@
   margin-top: 15px;
 
   color: var(--color-foyr);
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.__footer-list i {
+  width: fit-content;
 }
 
 ._imef-hostlink a:nth-child(2) {
@@ -460,7 +456,28 @@
 }
 
 @media screen and (max-width: 940px) {
-  
+  .__footer-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  ._flist-ministries {
+    justify-content: start !important;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .__footer-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+
+  .__footer-list li {
+    width: fit-content;
+  }
+
+  ._flist-ministries_twy {
+    justify-content: start !important;
+  }
 }
 
 @media screen and (max-width: 615px) {
@@ -486,6 +503,22 @@
     visibility: visible;
     display: flex;
   }
+
+  ._ime-subfooter {
+    flex-direction: column-reverse;
+  }
+
+  ._imef-hostlink {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .__footer-list {
+    grid-template-columns: repeat(1, 1fr);
+    width: fit-content;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -505,6 +538,38 @@
     opacity: 0;
 
     display: none;
+  }
+
+  ._ime-subfooter,
+  ._imef-hostlink a {
+    font-size: 13px;
+  }
+
+  ._imef-hostlink a:nth-child(2) {
+    margin: 0 8px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  ._ime-sobfooter {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  ._hostnavigation {
+    align-items: start;
+  }
+
+  ._hostcontents {
+    width: 100%;
+    justify-content: space-between;
+
+    margin-top: 15px;
+  }
+
+  ._hostcontents p {
+    visibility: hidden;
+    opacity: 0;
   }
 }
 
