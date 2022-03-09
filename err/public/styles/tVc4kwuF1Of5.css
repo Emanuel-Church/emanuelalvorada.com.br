@@ -64,6 +64,8 @@
     display: grid;
     place-content: center;
 
+    background: var(--background-primary);
+
     margin: 150px 25px;
     text-align: center;
 }
