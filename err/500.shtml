@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Estamos perdidos? | Igreja Emanuel</title>
+    <title>Servidores comprometidos | Igreja Emanuel</title>
     <meta name="description" content="">
     <meta name="robots" content="none">
     <meta name="author" content="Igreja Missionária Emanuel">
     <meta name="keywords" content="Igreja, Igreja em Alvorada, Igreja na Aparecida, Igreja Emanuel, Igreja Missionária, Igreja Missionária Emanuel, IME, ime, I.M.E, Igreja IME, Igreja I.M.E, Igreja Emanuel I.M.E, Igreja Emanuel IME">
     
     <meta property="og:type" content="page">
-    <meta property="og:url" content="https://emanuelalvorada.com.br/err/404/">
+    <meta property="og:url" content="https://emanuelalvorada.com.br/err/500/">
     <meta property="og:title" content="Estamos perdidos? | Igreja Emanuel">
     <meta property="og:image" content="https://emanuelalvorada.com.br/err/brand/opg.png">
     <meta property="og:description" content="">
@@ -17,7 +17,7 @@
     
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@">
-    <meta name="twitter:title" content="Estamos perdidos? | Igreja Emanuel">
+    <meta name="twitter:title" content="Servidores comprometidos | Igreja Emanuel">
     <meta name="twitter:creator" content="@">
     <meta name="twitter:description" content="">
     
@@ -134,9 +134,9 @@
     </header>
     <main class="ime-main" id="main">
         <section class="_ime-main">
-            <h2>404</h2>
-            <p>Parece que estamos perdidos, que tal voltar para o inicio da trilha ou tentar usar um mapa?</p>
-            <a href="mailto:ime@forml.link">Contato</a>
+            <h2>500</h2>
+            <p>Ops! Nossos servidores parecem não estar funcionando corretamente. Tente novamente mais tarde se o erro persistir converse conosco.</p>
+            <a href="mailto:ime@forml.link">contato</a>
             <nav>
                 <section>
                     <a class="_ime-home_a" href="/?track=emanuelalvorada.com.br-path=main-subpath=err.404">Home&nbsp;<i class="icon-home"></i></a>
