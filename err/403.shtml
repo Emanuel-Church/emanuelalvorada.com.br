@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Estamos perdidos? | Igreja Emanuel</title>
+    <title>Por favor, suas credenciais! | Igreja Emanuel</title>
     <meta name="description" content="">
     <meta name="robots" content="none">
     <meta name="author" content="Igreja Missionária Emanuel">
     <meta name="keywords" content="Igreja, Igreja em Alvorada, Igreja na Aparecida, Igreja Emanuel, Igreja Missionária, Igreja Missionária Emanuel, IME, ime, I.M.E, Igreja IME, Igreja I.M.E, Igreja Emanuel I.M.E, Igreja Emanuel IME">
     
     <meta property="og:type" content="page">
-    <meta property="og:url" content="https://emanuelalvorada.com.br/err/404/">
+    <meta property="og:url" content="https://emanuelalvorada.com.br/err/403/">
     <meta property="og:title" content="Estamos perdidos? | Igreja Emanuel">
     <meta property="og:image" content="https://emanuelalvorada.com.br/err/brand/opg.png">
     <meta property="og:description" content="">
@@ -17,7 +17,7 @@
     
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@">
-    <meta name="twitter:title" content="Estamos perdidos? | Igreja Emanuel">
+    <meta name="twitter:title" content="Por favor, suas credenciais! | Igreja Emanuel">
     <meta name="twitter:creator" content="@">
     <meta name="twitter:description" content="">
     
@@ -134,8 +134,8 @@
     </header>
     <main class="ime-main" id="main">
         <section class="_ime-main">
-            <h2>404</h2>
-            <p>Parece que estamos perdidos, que tal voltar para o inicio da trilha ou tentar usar um mapa?</p>
+            <h2>403</h2>
+            <p>Parece que você se encontra em uma área restrita! Se você tem permissão entre em contato com nossa equipe.</p>
             <a href="mailto:ime@forml.link">Contato</a>
             <nav>
                 <section>
