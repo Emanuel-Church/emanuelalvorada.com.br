@@ -136,7 +136,7 @@
         <section class="_ime-main">
             <h2>404</h2>
             <p>Parece que estamos perdidos, que tal voltar para o inicio da trilha ou tentar usar um mapa?</p>
-            <a href="mailto:ime@forml.link">Contato</a>
+            <a href="mailto:ime@forml.link?cc=iemanuelalvorada@gmail.com&subject=Contact%20by%20the%20site%20%7Bemanuelalvorada.com.br%7D%20-%20Error%20404&body=While%20browsing%20the%20site%20emanuelalvorada.com.br%20the%20following%20error%20occurred%3A%20Err%20404%20-%20Error%20page%20not%20found.">Contato</a>
             <nav>
                 <section>
                     <a class="_ime-home_a" href="/?track=emanuelalvorada.com.br-path=main-subpath=err.404">Home&nbsp;<i class="icon-home"></i></a>
@@ -170,11 +170,11 @@
                             <i class="icon-map-pin"></i>
                             <p>R. Santa Bárbara, 36<br>Intersul - RS</p>
                         </div>
-                        <a href="">
+                        <a href="http://i.emanuelalvorada.com.br/S07ScV">
                             <i class="icon-phone"></i>
                             (51) 99144-9000
                         </a>
-                        <a href="">
+                        <a href="mailto:iemanuelalvorada@gmail.com?cc=ime@forml.link&subject=Uma%20nova%20mensagem!%20%7C%20emanuelalvorada.com.br&body=Estou%20entrando%20em%20contato%20pelo%20link%20de%20email%20no%20rotape%20do%20site%20emanuelalvorada.com.br.">
                             <i class="icon-at-sign"></i>
                             iemanuelalvorada@gmail.com
                         </a>
@@ -220,7 +220,7 @@
                     <nav class="_flist-contents">
                         <a href="https://www.facebook.com/IgrejaMissionariaEmanuelAlvorada/">Facebook</a>
                         <a href="https://www.instagram.com/ime_alvoradars/">Instagram</a>
-                        <a href="http://wa.me/5551991449000">WhatsApp</a>
+                        <a href="http://i.emanuelalvorada.com.br/S07ScV">WhatsApp</a>
                     </nav>
                 </li>
             </ul>
