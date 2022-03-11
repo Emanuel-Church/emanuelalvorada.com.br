@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Estamos perdidos? | Igreja Emanuel</title>
+    <title>Por favor, suas credenciais! | Igreja Emanuel</title>
     <meta name="description" content="">
     <meta name="robots" content="none">
     <meta name="author" content="Igreja Missionária Emanuel">
     <meta name="keywords" content="Igreja, Igreja em Alvorada, Igreja na Aparecida, Igreja Emanuel, Igreja Missionária, Igreja Missionária Emanuel, IME, ime, I.M.E, Igreja IME, Igreja I.M.E, Igreja Emanuel I.M.E, Igreja Emanuel IME">
     
     <meta property="og:type" content="page">
-    <meta property="og:url" content="https://emanuelalvorada.com.br/err/404/">
+    <meta property="og:url" content="https://emanuelalvorada.com.br/err/403/">
     <meta property="og:title" content="Estamos perdidos? | Igreja Emanuel">
     <meta property="og:image" content="https://emanuelalvorada.com.br/err/brand/opg.png">
     <meta property="og:description" content="">
@@ -17,7 +17,7 @@
     
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@">
-    <meta name="twitter:title" content="Estamos perdidos? | Igreja Emanuel">
+    <meta name="twitter:title" content="Por favor, suas credenciais! | Igreja Emanuel">
     <meta name="twitter:creator" content="@">
     <meta name="twitter:description" content="">
     
@@ -76,9 +76,9 @@
     <header class="ime-header" id="header">
         <section class="_ime-subheader">
             <nav class="_imeh-hostlink">
-                <a href="/?track=emanuelalvorada.com.br-path=subheader-subpath=err.404" class="_active" target="_blank" rel="noopener noreferrer">Igreja Emanuel</a>
-                <a class="_imeh-hostlink-center" href="/ministerios/?track=emanuelalvorada.com.br-path=subheader-subpath=err.404" target="_blank" rel="noopener noreferrer">Ministérios</a>
-                <a href="/eventos/?track=emanuelalvorada.com.br-path=subheader-subpath=err.404" target="_blank" rel="noopener noreferrer">Eventos</a>
+                <a href="/?track=emanuelalvorada.com.br-path=subheader-subpath=err.403" class="_active" target="_blank" rel="noopener noreferrer">Igreja Emanuel</a>
+                <a class="_imeh-hostlink-center" href="/ministerios/?track=emanuelalvorada.com.br-path=subheader-subpath=err.403" target="_blank" rel="noopener noreferrer">Ministérios</a>
+                <a href="/eventos/?track=emanuelalvorada.com.br-path=subheader-subpath=err.403" target="_blank" rel="noopener noreferrer">Eventos</a>
             </nav>
             <nav class="_imeh-hostsocial">
                 <a href="http://facebook.com/IgrejaMissionariaEmanuelAlvorada" target="_blank" rel="noopener noreferrer">
@@ -95,17 +95,17 @@
         <div class="_dlines"></div>
         <section class="_ime-header">
             <div class="logo_content">
-                <a href="https://emanuelalvorada.com.br/?track=emanuelalvorada.com.br-path=header-subpath=err.404">
+                <a href="https://emanuelalvorada.com.br/?track=emanuelalvorada.com.br-path=header-subpath=err.403">
                     <img src="/assets/brand/logo.png" alt="Logo | Igreja Emanuel">
                 </a>
             </div>
             <nav class="_menu">
                 <ul class="_im-list">
-                    <li><a href="/?track=emanuelalvorada.com.br-path=header-subpath=err.404">Home</a></li>
-                    <li><a href="/ministerios/?track=emanuelalvorada.com.br-path=header-subpath=err.404">Ministérios</a></li>
-                    <li><a href="/base/?track=emanuelalvorada.com.br-path=header-subpath=err.404">Endereço</a></li>
-                    <li><a href="/contato/?track=emanuelalvorada.com.br-path=header-subpath=err.404">Contato</a></li>
-                    <li><a href="/apoiar/?track=emanuelalvorada.com.br-path=header-subpath=err.404">Apoiar</a></li>
+                    <li><a href="/?track=emanuelalvorada.com.br-path=header-subpath=err.403">Home</a></li>
+                    <li><a href="/ministerios/?track=emanuelalvorada.com.br-path=header-subpath=err.403">Ministérios</a></li>
+                    <li><a href="/base/?track=emanuelalvorada.com.br-path=header-subpath=err.403">Endereço</a></li>
+                    <li><a href="/contato/?track=emanuelalvorada.com.br-path=header-subpath=err.403">Contato</a></li>
+                    <li><a href="/apoiar/?track=emanuelalvorada.com.br-path=header-subpath=err.403">Apoiar</a></li>
                 </ul>
                 <div class="_im-search">
                     <div id='sb-search-input-example'>
@@ -134,13 +134,13 @@
     </header>
     <main class="ime-main" id="main">
         <section class="_ime-main">
-            <h2>404</h2>
-            <p>Parece que estamos perdidos, que tal voltar para o inicio da trilha ou tentar usar um mapa?</p>
-            <a href="mailto:ime@forml.link?cc=iemanuelalvorada@gmail.com&subject=Contact%20by%20the%20site%20%7Bemanuelalvorada.com.br%7D%20-%20Error%20404&body=While%20browsing%20the%20site%20emanuelalvorada.com.br%20the%20following%20error%20occurred%3A%20Err%20404%20-%20Error%20page%20not%20found.">Contato</a>
+            <h2>403</h2>
+            <p>Parece que você se encontra em uma área restrita! Se você tem permissão entre em contato com nossa equipe.</p>
+            <a href="mailto:ime@forml.link?cc=iemanuelalvorada@gmail.com&subject=Contact%20by%20the%20site%20%7Bemanuelalvorada.com.br%7D%20-%20Error%20403&body=While%20browsing%20the%20site%20emanuelalvorada.com.br%20the%20following%20error%20occurred%3A%20Err%20403%20-%20restricted%20access.">Contato</a>
             <nav>
                 <section>
-                    <a class="_ime-home_a" href="/?track=emanuelalvorada.com.br-path=main-subpath=err.404">Home&nbsp;<i class="icon-home"></i></a>
-                    <a href="/sitemap/?track=emanuelalvorada.com.br-path=main-subpath=err.404">SiteMap&nbsp;<i class="icon-compass"></i></a>
+                    <a class="_ime-home_a" href="/?track=emanuelalvorada.com.br-path=main-subpath=err.403">Home&nbsp;<i class="icon-home"></i></a>
+                    <a href="/sitemap/?track=emanuelalvorada.com.br-path=main-subpath=err.403">SiteMap&nbsp;<i class="icon-compass"></i></a>
                 </section>
             </nav>
         </section>
@@ -148,16 +148,16 @@
     <footer class="ime-footer">
         <section class="_ime-sobfooter">
             <nav class="_hostnavigation">
-                <a href="/?track=emanuelalvorada.com.br-path=sobfooter-subpath=err.404">IME</a>
+                <a href="/?track=emanuelalvorada.com.br-path=sobfooter-subpath=err.403">IME</a>
                 <p>></p>
-                <a href="/err/?track=emanuelalvorada.com.br-path=sobfooter-subpath=err.404">Err</a>
+                <a href="/err/?track=emanuelalvorada.com.br-path=sobfooter-subpath=err.403">Err</a>
                 <p>></p>
-                <a href="/err/404/?track=emanuelalvorada.com.br-path=sobfooter-subpath=err.404">404</a>
+                <a href="/err/403/?track=emanuelalvorada.com.br-path=sobfooter-subpath=err.403">403</a>
             </nav>
             <nav class="_hostcontents">
-                <a href="/sitemap/?track=emanuelalvorada.com.br-path=sobfooter-subpath=err.404">SiteMap</a>
+                <a href="/sitemap/?track=emanuelalvorada.com.br-path=sobfooter-subpath=err.403">SiteMap</a>
                 <p>•</p>
-                <a href="/contato/?track=emanuelalvorada.com.br-path=sobfooter-subpath=err.404">Contato</a>
+                <a href="/contato/?track=emanuelalvorada.com.br-path=sobfooter-subpath=err.403">Contato</a>
             </nav>
         </section>
         <div class="_dlines"></div>
@@ -183,36 +183,36 @@
                 <li class="_flist-explorer">
                     <h6>Explorar</h6>
                     <nav class="_flist-contents">
-                        <a href="/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Home</a>
-                        <a href="/agenda/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Agenda</a>
-                        <a class="no_active" href="/base/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Base</a>
-                        <a href="/apoiar/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Apoiar</a>
+                        <a href="/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Home</a>
+                        <a href="/agenda/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Agenda</a>
+                        <a class="no_active" href="/base/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Base</a>
+                        <a href="/apoiar/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Apoiar</a>
                     </nav>
                 </li>
                 <li class="_flist-terms">
                     <h6>Políticas</h6>
                     <nav class="_flist-contents">
-                        <a href="/politicas/privacidade/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Privacidade</a>
-                        <a href="/politicas/termo/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Termo de Uso</a>
-                        <a href="/politicas/copyright/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Direito Autorais</a>
-                        <a href="/politicas/cookies/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Cookies</a>
+                        <a href="/politicas/privacidade/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Privacidade</a>
+                        <a href="/politicas/termo/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Termo de Uso</a>
+                        <a href="/politicas/copyright/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Direito Autorais</a>
+                        <a href="/politicas/cookies/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Cookies</a>
                     </nav>
                 </li>
                 <li class="_flist-ministries _flist-ministries_ony">
                     <h6>Ministérios</h6>
                     <nav class="_flist-contents">
-                        <a href="/ministerios/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Ministérios</a>
-                        <a class="no_active" href="/ministerios/evangelismo/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Evangelístico</a>
-                        <a class="no_active" href="/ministerios/apoio/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Apoio</a>
-                        <a class="no_active" href="/ministerios/kids/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Kids</a>
+                        <a href="/ministerios/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Ministérios</a>
+                        <a class="no_active" href="/ministerios/evangelismo/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Evangelístico</a>
+                        <a class="no_active" href="/ministerios/apoio/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Apoio</a>
+                        <a class="no_active" href="/ministerios/kids/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Kids</a>
                     </nav>
                 </li>
                 <li class="_flist-ministries _flist-ministries_twy">
                     <h6>Ministérios</h6>
                     <nav>
-                        <a class="no_active" href="/ministerios/comunicacao/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Comunicação</a>
-                        <a class="no_active" href="/ministerios/louvor/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Louvor</a>
-                        <a class="no_active" href="/ministerios/culinaria/?track=emanuelalvorada.com.br-path=footer-subpath=err.404">Culinária</a>
+                        <a class="no_active" href="/ministerios/comunicacao/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Comunicação</a>
+                        <a class="no_active" href="/ministerios/louvor/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Louvor</a>
+                        <a class="no_active" href="/ministerios/culinaria/?track=emanuelalvorada.com.br-path=footer-subpath=err.403">Culinária</a>
                     </nav>
                 </li>
                 <li class="_flist-social">
@@ -229,9 +229,9 @@
         <section class="_ime-subfooter">
             <p>©&nbsp;<span id="copyright"></span>&nbsp;Igreja Emanuel</p>
             <nav class="_imef-hostlink">
-                <a href="/?track=emanuelalvorada.com.br-path=subfooter-subpath=err.404" class="_active" target="_blank" rel="noopener noreferrer">Igreja Emanuel</a>
-                <a href="/ministerios/?track=emanuelalvorada.com.br-path=subfooter-subpath=err.404" target="_blank" rel="noopener noreferrer">Ministérios</a>
-                <a href="/eventos/?track=emanuelalvorada.com.br-path=subfooter-subpath=err.404" target="_blank" rel="noopener noreferrer">Eventos</a>
+                <a href="/?track=emanuelalvorada.com.br-path=subfooter-subpath=err.403" class="_active" target="_blank" rel="noopener noreferrer">Igreja Emanuel</a>
+                <a href="/ministerios/?track=emanuelalvorada.com.br-path=subfooter-subpath=err.403" target="_blank" rel="noopener noreferrer">Ministérios</a>
+                <a href="/eventos/?track=emanuelalvorada.com.br-path=subfooter-subpath=err.403" target="_blank" rel="noopener noreferrer">Eventos</a>
             </nav>
         </section>
     </footer>
