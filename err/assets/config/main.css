@@ -267,3 +267,8 @@ a:hover {
   transition: var(--animation);
   color: var(--hover);
 }
+
+i {
+  width: fit-content;
+  height: fit-content;
+}

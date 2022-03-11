@@ -1,3 +1,9 @@
+/* == Main Temp == */
+
+.ime-main {
+  margin: 1rem;
+}
+
 /* == GLOBAL == */
 
 .ime-header,
@@ -53,6 +59,7 @@
 
 .ime-header img {
   width: 9rem;
+  height: auto;
   min-width: 6rem;
 }
 
@@ -362,11 +369,12 @@
 
   ._toggles {
     display: flex;
+    justify-content: flex-end;
+
+    width: 100%;
 
     font-size: 2rem;
     color: var(--color-twy);
-
-    margin-left: 25px;
   }
 
   ._im-list {
@@ -409,7 +417,7 @@
   }
 
   ._menu.show .open {
-    display: none;
+    display: none !important;
   }
 
   ._menu .close {
@@ -434,7 +442,7 @@
     right: 2rem;
     z-index: 5;
   }
-  
+
   ._menu.show a {
     line-height: 4rem;
     margin: 0;
