@@ -96,7 +96,7 @@
         <section class="_ime-header">
             <div class="logo_content">
                 <a href="https://emanuelalvorada.com.br/?track=emanuelalvorada.com.br-path=header-subpath=err.500">
-                    <img src="/assets/brand/logo.png" alt="Logo | Igreja Emanuel">
+                    <img src="/err/assets/brand/logo.png" alt="Logo | Igreja Emanuel">
                 </a>
             </div>
             <nav class="_menu">
@@ -241,7 +241,7 @@
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="/public/script/main.js"></script>
+    <script src="/err/public/script/main.js"></script>
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=" GTM-P6P8BT9 height="0" width="0" style="display:none;visibility:hidden"></iframe>
