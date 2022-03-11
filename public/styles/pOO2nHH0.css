@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "Azonix";
+  src: url(https://upload.emanuelalvorada.com.br/search/font/Azonix.otf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Overpass:wght@400;500;600;700;800&display=swap");
+
+:root {
+  /* Backgrounds */
+  --background-primary: #f5f2f0;
+  --background-contents: #242020;
+  --background-hover: rgba(202, 202, 202, 0.2);
+
+  /* Colors */
+  --color-one: #a65d34;
+  --color-two: #d7a43a;
+  --color-three: #018dca;
+  --color-four: #b10338;
+  --color-five: #4d8c1e;
+  --color-six: #050505;
+  --color-seven: #be0000;
+  --color-eight: #d9e3e4;
+  --color-nine: #f7f7f7;
+  --color-ten: #b6b6b6;
+  --color-eleven: #8d8888;
+  --color-twelve: #0b0d17;
+
+  /* Colors B2.0 */
+  --color-ony: #595959;
+  --color-twy: #99a5a6;
+  --color-threy: #ecf7f8;
+  --color-foyr: #737474;
+
+  --color-btn-ony: #eca256;
+
+  /* shortcuts */
+  --animation: 0.5s;
+  --dalay: 0.3s;
+  --visited: #eca256;
+  --active: #edad6e;
+  --hover: #b5020b;
+  --hover-twy: #f5f2f0;
+  --hover-threy: #eca256;
+  --icon: 3rem;
+  --nones: none;
+  --showd: rgba(100, 100, 111, 0.2);
+
+  /* ScrollBar */
+  --scroll-bg: #242020;
+  --scroll-bar: #b6b6b6;
+
+  /* Fonts */
+  --h1: 800 4rem "Azonix", "Overpass", Arial, Helvetica, sans-serif;
+  --h2: 700 3rem "Overpass", Arial, Helvetica, sans-serif;
+  --h3: 600 2.25rem "Overpass", Arial, Helvetica, sans-serif;
+  --h4: 500 1.5rem "Overpass", Arial, Helvetica, sans-serif;
+  --h5: 500 1.25rem "Work Sans", Arial, Helvetica, sans-serif;
+  --h6: 400 1.125rem "Work Sans", Arial, Helvetica, sans-serif;
+  --text-primary: 500 1rem "Inter", Arial, Helvetica, sans-serif;
+  --text-complement: 400 0.875rem "Inter", Arial, Helvetica, sans-serif;
+  --text-additional: 400 0.75rem "Inter", Arial, Helvetica, sans-serif;
+}
+
+._ime-main {
+    padding: 150px 1rem;
+}
+
+._ime-main h3 {
+  width: fit-content;
+  margin: auto;
+
+  font: var(--h3);
+  text-align: center;
+}
+
+._sitemap-list {
+  max-width: 800px;
+  width: fit-content;
+  margin: auto;
+
+  display: grid;
+  place-content: center;
+
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem 9vw;
+
+  margin-top: 3rem;
+}
+
+._sitemap-list li {
+  width: fit-content;
+}
+
+._sitemap-list h4 {
+  font: var(--h4);
+}
+
+._sitemap-list nav {
+  display: grid;
+}
+
+._sitemap-list a {
+  width: fit-content;
+
+  margin-top: 15px;
+
+  font: var(--text-primary);
+  color: var(--color-twelve);
+  text-decoration: none;
+  text-decoration: none;
+}
+
+._sitemap-list a {
+  position: relative;
+  width: fit-content;
+}
+
+._sitemap-list a:visited {
+     color: var(--hover);
+     text-decoration: underline !important;
+}
+
+._sitemap-list a:hover {
+  transition: var(--animation);
+  color: var(--hover-threy);
+
+  text-decoration: none !important;
+}
+
+._sitemap-list a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background: var(--hover-threy);
+  -webkit-transform-origin: bottom right;
+  transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1),
+    -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+._sitemap-list a:hover::after {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+  transform-origin: bottom left;
+}
+
+@media screen and (max-width: 595px) {
+    ._ime-main {
+        padding: 50px 15px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    ._sitemap-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
