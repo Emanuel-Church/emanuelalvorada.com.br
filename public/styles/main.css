@@ -320,6 +320,8 @@
 .__footer-list a,
 ._mapsfooter {
   width: fit-content;
+  height: fit-content;
+  
   margin-top: 15px;
 
   color: var(--color-foyr);
