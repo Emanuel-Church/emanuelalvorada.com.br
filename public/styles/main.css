@@ -592,7 +592,6 @@
 
   ._hostmenu li {
     width: fit-content;
-    margin-left: 15px;
 
     line-height: 4rem;
     font-size: 1.5rem;
@@ -627,8 +626,12 @@
     width: 13rem;
   }
 
-  ._app-list li {
+  ._app-list li,
+  ._app-list a {
     margin: 0;
+    width: 100%;
+
+    text-align: center;
   }
 
   ._app-list a {
@@ -882,5 +885,52 @@
   ._im-list-ministerios:hover ul {
     width: 19rem;
     left: -92px;
+  }
+}
+
+/* B2.0.9 */
+
+._galyapp,
+._im-list-ministerios {
+  height: fit-content;
+  width: fit-content;
+}
+
+._im-list-ministerios a {
+  margin-right: 5px;
+}
+
+._im-list-ministerios::after lu {
+  display: none;
+}
+
+._im-list-ministerios::after:hover lu {
+  display: grid;
+}
+
+@media screen and (max-width: 1161px) {
+  ._im-list-ministerios ul,
+  ._im-list-ministerios i,
+  ._im-list-ministerios::after,
+  ._list-db_ministerios {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+
+  ._im-list-ministerios {
+    width: 100%;
+  }
+
+  ._im-list a {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 627px) {
+  ._galyapp {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
   }
 }
