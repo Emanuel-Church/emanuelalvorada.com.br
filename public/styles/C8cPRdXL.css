@@ -185,10 +185,90 @@
   max-width: 95rem;
 
   margin: auto;
-  padding: 2rem;
+  padding: 5rem 2rem;
 }
 
 ._formless,
 ._hc-infos {
   width: 50vw;
+}
+
+._formless {
+  margin-right: 10px;
+}
+
+._hc-infos {
+  margin-left: 10px;
+}
+
+._formless section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  margin-bottom: 15px;
+}
+
+._formless div {
+  width: 100%;
+}
+
+.i_name,
+.i_tel,
+.s_motivo {
+  margin-right: 10px;
+}
+
+.i_mail,
+.s_members,
+.i_assunto {
+  margin-left: 10px;
+}
+
+._formless input,
+.j-munchkin,
+._formless textarea {
+  padding: 1rem 10px !important;
+  width: 100%;
+
+  border: 2px solid var(--background-contents) !important;
+
+  font: var(--text-primary);
+  color: var(--color-twelve);
+}
+
+.current,
+._formless input::placeholder,
+._formless textarea::placeholder {
+  font: var(--text-primary);
+  color: var(--color-twelve);
+}
+
+.j-munchkin.open .list {
+  border: 2px solid var(--background-contents) !important;
+}
+
+._formless input:hover,
+._formless textarea:hover,
+.j-munchkin:hover {
+  transition: var(--animation);
+  box-shadow:rgba(0, 0, 0, 0.55) 0px 5px 15px;
+}
+
+._formless p {
+  font: var(--text-complement);
+  color: var(--color-twelve);
+  margin: 15px 0;
+}
+
+._formless a {
+  color: var(--color-twelve);
+}
+
+._formless a:hover {
+  color: var(--hover);
+}
+
+._formless button {
+  background: var(--color-btn-ony);
 }
