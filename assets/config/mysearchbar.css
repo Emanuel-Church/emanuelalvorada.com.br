@@ -104,3 +104,9 @@
 .sb-brand {
   display: none !important;
 }
+
+/* B2.0.8 */
+
+#sb-search-input-example .sb-content.sb-hero {
+  z-index: 5 !important;
+}
