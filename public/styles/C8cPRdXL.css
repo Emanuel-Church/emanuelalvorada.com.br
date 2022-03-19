@@ -1,65 +1,3 @@
-@font-face {
-  font-family: "Azonix";
-  src: url(https://upload.emanuelalvorada.com.br/search/font/Azonix.otf);
-}
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Overpass:wght@400;500;600;700;800&display=swap");
-
-:root {
-  /* Backgrounds */
-  --background-primary: #f5f2f0;
-  --background-contents: #242020;
-  --background-hover: rgba(202, 202, 202, 0.2);
-
-  /* Colors */
-  --color-one: #a65d34;
-  --color-two: #d7a43a;
-  --color-three: #018dca;
-  --color-four: #b10338;
-  --color-five: #4d8c1e;
-  --color-six: #050505;
-  --color-seven: #be0000;
-  --color-eight: #d9e3e4;
-  --color-nine: #f7f7f7;
-  --color-ten: #b6b6b6;
-  --color-eleven: #8d8888;
-  --color-twelve: #0b0d17;
-
-  /* Colors B2.0 */
-  --color-ony: #595959;
-  --color-twy: #99a5a6;
-  --color-threy: #ecf7f8;
-  --color-foyr: #737474;
-
-  --color-btn-ony: #eca256;
-
-  /* shortcuts */
-  --animation: 0.5s;
-  --dalay: 0.3s;
-  --visited: #eca256;
-  --active: #edad6e;
-  --hover: #b5020b;
-  --hover-twy: #f5f2f0;
-  --hover-threy: #eca256;
-  --icon: 3rem;
-  --nones: none;
-  --showd: rgba(100, 100, 111, 0.2);
-
-  /* ScrollBar */
-  --scroll-bg: #242020;
-  --scroll-bar: #b6b6b6;
-
-  /* Fonts */
-  --h1: 800 4rem "Azonix", "Overpass", Arial, Helvetica, sans-serif;
-  --h2: 700 3rem "Overpass", Arial, Helvetica, sans-serif;
-  --h3: 600 2.25rem "Overpass", Arial, Helvetica, sans-serif;
-  --h4: 500 1.5rem "Overpass", Arial, Helvetica, sans-serif;
-  --h5: 500 1.25rem "Work Sans", Arial, Helvetica, sans-serif;
-  --h6: 400 1.125rem "Work Sans", Arial, Helvetica, sans-serif;
-  --text-primary: 500 1rem "Inter", Arial, Helvetica, sans-serif;
-  --text-complement: 400 0.875rem "Inter", Arial, Helvetica, sans-serif;
-  --text-additional: 400 0.75rem "Inter", Arial, Helvetica, sans-serif;
-}
-
 .ime-main {
   padding: 0;
   margin: 0;
@@ -74,19 +12,9 @@
   display: none;
 }
 
-._hc-form input,
-._hc-form textarea {
-  background: transparent;
-  border: 2px solid var(--background-contents);
-  outline: none;
-
-  font: var(--text-complement);
-  color: var(--color-six);
-}
-
 ._background,
 ._bg-effect {
-  width: 100vw;
+  width: -webkit-fill-available;
   height: inherit;
 }
 
@@ -100,10 +28,6 @@
 }
 
 ._bgs {
-  position: absolute;
-  top: 0;
-  left: 0;
-
   height: inherit;
 }
 
@@ -157,7 +81,9 @@
 
 ._background {
   background-image: url(https://upload.emanuelalvorada.com.br/bIfKY1M/Uhmfc78h8vk6.jpg);
-  background-position-y: -60rem;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   position: absolute;
   top: 0;
@@ -180,6 +106,7 @@
 
 ._hc-blocs {
   display: flex;
+  justify-content: space-evenly;
 
   width: 100%;
   max-width: 95rem;
@@ -188,17 +115,13 @@
   padding: 5rem 2rem;
 }
 
-._formless,
-._hc-infos {
-  width: 50vw;
-}
-
-._formless {
-  margin-right: 10px;
+._hc-form {
+  max-width: 50rem;
+  width: 100%;
 }
 
 ._hc-infos {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 ._formless section {
@@ -229,12 +152,16 @@
 .j-munchkin,
 ._formless textarea {
   padding: 1rem 10px !important;
+
   width: 100%;
+  min-width: auto !important;
 
   border: 2px solid var(--background-contents) !important;
 
   font: var(--text-primary);
   color: var(--color-twelve);
+
+  resize: none;
 }
 
 .current,
@@ -252,7 +179,7 @@
 ._formless textarea:hover,
 .j-munchkin:hover {
   transition: var(--animation);
-  box-shadow:rgba(0, 0, 0, 0.55) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
 }
 
 ._formless p {
@@ -270,5 +197,130 @@
 }
 
 ._formless button {
-  background: var(--color-btn-ony);
+  background: var(--background-contents);
+  border: 2px solid var(--background-contents);
+
+  font: var(--h6);
+  color: var(--color-eight);
+
+  padding: 15px 23px;
+
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+._formless button:hover {
+  transition: var(--animation);
+
+  background: transparent;
+  color: var(--color-twelve);
+}
+
+._hc-infos {
+  width: fit-content;
+}
+
+._hc-infos h4 {
+  font: var(--h4);
+  margin-bottom: 15px;
+}
+
+._cts-address {
+  margin-bottom: 10px;
+  font: var(--text-primary);
+}
+
+._cts-contact nav {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 5px;
+}
+
+._cts-contact a {
+  color: var(--color-twelve);
+  margin-bottom: 5px;
+}
+
+._cts-contact a:hover {
+  transition: var(--animation);
+  color: var(--hover);
+}
+
+._cts-network nav {
+  display: flex;
+  align-self: center;
+  justify-content: start;
+}
+
+._cts-network a {
+  background: var(--background-contents);
+  border-radius: 50%;
+
+  text-decoration: none;
+
+  color: var(--color-eleven);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 10px;
+
+  width: 40px;
+  height: 40px;
+
+  font-size: 20px;
+}
+
+._cts-network a:hover {
+  filter: drop-shadow(var(--showds));
+  color: var(--color-btn-ony);
+
+  transition: var(--animation);
+}
+
+@media screen and (max-width: 868px) {
+  ._hc-blocs {
+    flex-direction: column;
+  }
+
+  ._hc-form,
+  ._hc-infos {
+    margin: 0;
+  }
+
+  ._hc-infos {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  ._formless section {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .i_name,
+  .i_tel,
+  .s_motivo,
+  .i_mail,
+  .s_members,
+  .i_assunto {
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  ._hc-ime {
+    padding: 2rem 1rem;
+  }
+
+  ._hc-blocs {
+    padding: 3rem 1rem;
+  }
 }
