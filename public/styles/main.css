@@ -43,6 +43,7 @@
   --icon: 3rem;
   --nones: none;
   --showd: rgba(100, 100, 111, 0.2);
+  --showds: rgba(0, 0, 0, 0.55) 0px 5px 15px;
 
   /* ScrollBar */
   --scroll-bg: #242020;
@@ -110,10 +111,20 @@
   background: var(--color-ony);
 }
 
-._imeh-hostlink,
+._imeh-hostlink {
+  display: flex;
+}
+
+._imeh-hostlink a {
+  margin-right: 15px;
+}
+
+._imef-hostlink a {
+  margin-left: 15px;
+}
+
 ._imef-hostlink {
   display: flex;
-  gap: 15px;
 }
 
 /* == Header == */
@@ -478,7 +489,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 99;
   }
 
   ._menu.show ._im-list {
