@@ -1,0 +1,326 @@
+@font-face {
+  font-family: "Azonix";
+  src: url(https://upload.emanuelalvorada.com.br/search/font/Azonix.otf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Overpass:wght@400;500;600;700;800&display=swap");
+
+:root {
+  /* Backgrounds */
+  --background-primary: #f5f2f0;
+  --background-contents: #242020;
+  --background-hover: rgba(202, 202, 202, 0.2);
+
+  /* Colors */
+  --color-one: #a65d34;
+  --color-two: #d7a43a;
+  --color-three: #018dca;
+  --color-four: #b10338;
+  --color-five: #4d8c1e;
+  --color-six: #050505;
+  --color-seven: #be0000;
+  --color-eight: #d9e3e4;
+  --color-nine: #f7f7f7;
+  --color-ten: #b6b6b6;
+  --color-eleven: #8d8888;
+  --color-twelve: #0b0d17;
+
+  /* Colors B2.0 */
+  --color-ony: #595959;
+  --color-twy: #99a5a6;
+  --color-threy: #ecf7f8;
+  --color-foyr: #737474;
+
+  --color-btn-ony: #eca256;
+
+  /* shortcuts */
+  --animation: 0.5s;
+  --dalay: 0.3s;
+  --visited: #eca256;
+  --active: #edad6e;
+  --hover: #b5020b;
+  --hover-twy: #f5f2f0;
+  --hover-threy: #eca256;
+  --icon: 3rem;
+  --nones: none;
+  --showd: rgba(100, 100, 111, 0.2);
+  --showds: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+
+  /* ScrollBar */
+  --scroll-bg: #242020;
+  --scroll-bar: #b6b6b6;
+
+  /* Fonts */
+  --h1: 800 4rem "Azonix", "Overpass", Arial, Helvetica, sans-serif;
+  --h2: 700 3rem "Overpass", Arial, Helvetica, sans-serif;
+  --h3: 600 2.25rem "Overpass", Arial, Helvetica, sans-serif;
+  --h4: 500 1.5rem "Overpass", Arial, Helvetica, sans-serif;
+  --h5: 500 1.25rem "Work Sans", Arial, Helvetica, sans-serif;
+  --h6: 400 1.125rem "Work Sans", Arial, Helvetica, sans-serif;
+  --text-primary: 500 1rem "Inter", Arial, Helvetica, sans-serif;
+  --text-complement: 400 0.875rem "Inter", Arial, Helvetica, sans-serif;
+  --text-additional: 400 0.75rem "Inter", Arial, Helvetica, sans-serif;
+}
+
+/* == GLOBAL == */
+
+.ime-main {
+  margin: 0;
+  padding: 0;
+}
+
+._background,
+._bg-effect {
+  width: -webkit-fill-available;
+  height: inherit;
+}
+
+/* = Banner = */
+
+._banner {
+  height: 40vh;
+  min-height: 15rem;
+
+  position: relative;
+}
+
+._bgs {
+  height: inherit;
+}
+
+._hc-contents {
+  display: grid;
+  align-content: center;
+  justify-content: start;
+}
+
+._hc-ime {
+  position: inherit;
+  z-index: 2;
+
+  display: flex;
+
+  height: inherit;
+  width: 100%;
+  max-width: 95rem;
+
+  margin: auto;
+  padding: 2rem;
+}
+
+._hc-details {
+  font: var(--text-complement);
+  color: var(--color-btn-ony);
+
+  display: flex;
+  align-items: center;
+}
+
+._hc-details i {
+  background: var(--color-btn-ony);
+
+  height: 2px;
+  width: 1rem;
+
+  margin-right: 10px;
+}
+
+._hc-contents h2 {
+  font: var(--h2);
+  font-weight: 800;
+  color: var(--color-eight);
+
+  letter-spacing: 8px;
+
+  margin-top: 15px;
+}
+
+._background {
+  background-image: url(https://upload.emanuelalvorada.com.br/search/image/1/4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: 0;
+}
+
+._bg-effect {
+  z-index: 1;
+  background-color: var(--background-contents);
+  opacity: 0.8;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Main */
+
+._dados-bancarios {
+  padding: 135px 20px;
+  margin: auto;
+}
+
+._apc-block {
+  box-shadow: var(--showds);
+  background-color: var(--color-nine);
+  border-radius: 8px;
+
+  margin: auto;
+
+  height: inherit;
+  width: fit-content;
+}
+
+._apc-block section {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 20px;
+
+  height: inherit;
+  width: inherit;
+}
+
+._blocks-img {
+  background-image: url(https://upload.emanuelalvorada.com.br/search/image/2/ukN7r0.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 28rem;
+  width: 18rem;
+
+  border: 2px solid transparent;
+  border-radius: 8px;
+
+  margin-left: 25px;
+}
+
+.blocks_dados {
+  margin-right: 25px;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+}
+
+.blocks_dados strong {
+  font-weight: bold;
+}
+
+.blocks_dados h3 {
+  font: var(--h3);
+  font-size: 28px;
+
+  margin-bottom: 15px;
+}
+
+._bd-infos p {
+  margin-bottom: 10px;
+}
+
+.blocks_dados h4 {
+  font: var(--h4);
+  font-weight: 700;
+
+  margin: 15px 0;
+}
+
+/* Pix */
+
+._pix-infos {
+  display: flex;
+}
+
+._pix-infos button {
+  outline: 0;
+  border: 2px solid var(--background-contents);
+  background: var(--background-contents);
+
+  color: var(--color-eight);
+
+  padding: 10px;
+
+  cursor: pointer;
+
+  display: none;
+}
+
+/* Recibo */
+
+._rci-infos nav {
+  display: flex;
+  align-items: center;
+
+  margin-top: 15px;
+}
+
+._rci-infos a {
+  text-decoration: none;
+  color: var(--color-twelve);
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+._rci-infos a:hover {
+  color: var(--hover);
+}
+
+._rci-infos_whats {
+  margin-right: 10px;
+}
+
+/* Line Block */
+
+.__block-line {
+  background: var(--background-contents);
+  border: none;
+  border-radius: 0 0 8px 8px;
+
+  height: 7px;
+}
+
+/* Outros */
+
+#pixinfo {
+  display: none;
+}
+
+/* == MOBILE == */
+
+@media screen and (max-width: 768px) {
+  ._apc-block section {
+    flex-direction: column;
+  }
+
+  .blocks_dados {
+    margin: 0;
+    margin-bottom: 15px;
+
+    width: 100%;
+  }
+
+  ._blocks-img {
+    margin: 0;
+    margin-top: 15px;
+
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  ._hc-contents h2 {
+    font-size: 2.8rem;
+  }
+
+  ._dados-bancarios {
+    padding: 35px 10px;
+  }
+}
