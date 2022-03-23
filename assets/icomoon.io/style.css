@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?cp7uxb');
-  src:  url('fonts/icomoon.eot?cp7uxb#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?cp7uxb') format('truetype'),
-    url('fonts/icomoon.woff?cp7uxb') format('woff'),
-    url('fonts/icomoon.svg?cp7uxb#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?2vznop');
+  src:  url('fonts/icomoon.eot?2vznop#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2vznop') format('truetype'),
+    url('fonts/icomoon.woff?2vznop') format('woff'),
+    url('fonts/icomoon.svg?2vznop#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -31,6 +31,9 @@
 .icon-anchor:before {
   content: "\e901";
 }
+.icon-arrow-up-right:before {
+  content: "\e91a";
+}
 .icon-at-sign:before {
   content: "\e902";
 }
@@ -55,6 +58,18 @@
 .icon-compass:before {
   content: "\e909";
 }
+.icon-copy:before {
+  content: "\e91f";
+}
+.icon-external-link:before {
+  content: "\e91b";
+}
+.icon-eye:before {
+  content: "\e91c";
+}
+.icon-eye-off:before {
+  content: "\e91d";
+}
 .icon-facebook:before {
   content: "\e90a";
 }
@@ -72,6 +87,9 @@
 }
 .icon-instagram:before {
   content: "\e90e";
+}
+.icon-link:before {
+  content: "\e91e";
 }
 .icon-mail:before {
   content: "\e90f";
