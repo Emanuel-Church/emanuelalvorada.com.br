@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Azonix";
-  src: url(https://upload.emanuelalvorada.com.br/search/font/Azonix.otf);
+  src: url(https://dahvo8qvc67vr.cloudfront.net/wovSIuBa/Azonix.otf);
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Overpass:wght@400;500;600;700;800&display=swap");
 
@@ -233,7 +233,8 @@ img,
 svg,
 video,
 header,
-footer {
+footer,
+._ime-top {
   user-select: none;
 }
 
