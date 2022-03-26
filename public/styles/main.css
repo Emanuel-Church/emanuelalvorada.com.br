@@ -44,6 +44,7 @@
   --nones: none;
   --showd: rgba(100, 100, 111, 0.2);
   --showds: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+  --showdb: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
   /* ScrollBar */
   --scroll-bg: #242020;
