@@ -159,6 +159,7 @@
   min-width: auto !important;
 
   border: 2px solid var(--background-contents) !important;
+  border-radius: 0 !important;
 
   font: var(--text-primary);
   color: var(--color-twelve);
