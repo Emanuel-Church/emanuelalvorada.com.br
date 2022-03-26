@@ -1,0 +1,79 @@
+._ime-main {
+    display: grid;
+    place-content: center;
+
+    background: var(--background-primary);
+
+    margin: 150px 25px;
+    text-align: center;
+}
+
+._ime-main h2 {
+    font: var(--h2);
+    font-size: 6rem;
+    font-weight: 800;
+    color: var(--color-six);
+}
+
+._ime-main p {
+    margin: 15px auto;
+    font-size: 17px;
+
+    width: 25vw;
+    min-width: 15rem;
+}
+
+._ime-main nav {
+    display: grid;
+}
+
+._ime-main section {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 15px;
+}
+
+._ime-main a {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+    padding: 15px 20px;
+    margin-top: 15px;
+
+    background-color: var(--background-contents);
+    border: 2px solid var(--background-contents);
+
+    
+    color: var(--color-eight);
+    text-decoration: none;
+
+    border-radius: 3px;
+
+    user-select: none;
+
+    width: 100%;
+}
+
+._ime-home_a {
+    margin-right: 15px;
+}
+
+._ime-main a:hover {
+    transition: var(--animation);
+
+    background-color: transparent;
+    border: 2px solid var(--background-contents);
+    color: var(--background-contents);
+}
+
+._ime-main i {
+    margin-left: 5px;
+
+    width: fit-content;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+}

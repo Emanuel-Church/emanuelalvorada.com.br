@@ -1,0 +1,198 @@
+/* == GLOBAL == */
+
+.ime-main {
+  margin: 0;
+  padding: 0;
+}
+
+._background,
+._bg-effect {
+  width: -webkit-fill-available;
+  height: inherit;
+}
+
+/* = Banner = */
+
+._contents-banner {
+  height: 65vh;
+  min-height: 15rem;
+
+  position: relative;
+
+  display: flex;
+}
+
+._bgs {
+  height: inherit;
+}
+
+._hc-contents {
+  display: grid;
+  align-content: unset;
+  justify-content: center;
+
+  text-align: center;
+
+  height: inherit;
+}
+
+._hc-ime {
+  position: inherit;
+  z-index: 2;
+
+  display: grid;
+  align-content: center;
+  justify-content: center;
+
+  height: inherit;
+  width: 100%;
+  max-width: 95rem;
+
+  margin: auto;
+  padding: 2rem;
+}
+
+._hc-details {
+  font: var(--text-complement);
+  color: var(--color-btn-ony);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._hc-details i {
+  background: var(--color-btn-ony);
+
+  height: 2px;
+  width: 1rem;
+
+  margin-right: 10px;
+}
+
+._hc-contents h1 {
+  font: var(--h1);
+  font-weight: 800;
+  color: var(--color-eight);
+
+  letter-spacing: 8px;
+
+  margin-top: 15px;
+}
+
+._base_loc-detail {
+  color: var(--color-eight);
+  margin-top: 15px;
+}
+
+._background {
+  background-image: url(https://d8a923b1h5a1n.cloudfront.net/DcpX1TgC/12_03_2022/IMG_3390.JPEG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: 0;
+}
+
+._bg-effect {
+  z-index: 1;
+  background-color: var(--background-contents);
+  opacity: 0.8;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Main */
+
+._contents-main {
+  padding: 5rem 1rem;
+
+  margin: auto;
+  max-width: 95rem;
+}
+
+._contents-main h2 {
+  font: var(--h2);
+  font-size: 32px;
+  text-align: center;
+
+  margin-bottom: 25px;
+}
+
+._ctns_m-base {
+  width: 100%;
+  background-color: var(--background-primary);
+  border-radius: 8px;
+
+  box-shadow: var(--showdb);
+}
+
+._ctnm-maps {
+  width: 100%;
+  background: var(--background-contents);
+  border-radius: 8px;
+}
+
+._ctnm-maps iframe {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+._ctnm-maps hr {
+  border: 0;
+  background: var(--background-contents);
+  height: 8px;
+
+  border-radius: 0 0 8px 8px;
+}
+
+._ctns_m-programming {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+._glide__contents-programming {
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+._grid_programming {
+  padding: 12px;
+}
+
+._grid_programming h5 {
+  font: var(--h5);
+
+  margin-bottom: 8px;
+}
+
+._grid_programming p {
+  display: flex;
+  align-items: center;
+}
+
+._grid_programming i {
+  margin-right: 10px;
+}
+
+._glide__contents-programming hr {
+  border: 0;
+  background: var(--background-contents);
+  height: 3px;
+}
+
+@media screen and (max-width: 425px) {
+  ._hc-contents h1 {
+    font-size: 3rem;
+  }
+
+  ._contents-main h2 {
+    font-size: 25px;
+  }
+}

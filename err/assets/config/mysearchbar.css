@@ -1,0 +1,106 @@
+#sb-search-input-example .sb-content.sb-hero {
+  background: none;
+  background-color: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sb-search-input-example .sb-search.sb-hero {
+  background-color: transparent;
+  border: 2px solid var(--color-ony);
+
+  margin: 0;
+}
+
+#sb-search-input-example:hover .sb-search.sb-hero:hover {
+  transition: var(--animation);
+  border: 2px solid var(--hover-threy);
+}
+
+#sb-search-input-example .sb-search-field {
+  font: var(--text-primary) !important;
+  color: var(--color-twy);
+}
+
+#sb-search-input-example .sb-search-icon {
+  background: transparent;
+  color: var(--color-twy);
+  border: 2px solid var(--color-btn-ony);
+}
+
+#sb-search-input-example:hover .sb-search-icon:hover {
+  transition: var(--animation);
+  color: var(--color-nine);
+  background: var(--color-btn-ony);
+}
+
+.ime_searchico {
+  font: normal normal 500 26px font-sb;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Modal SearchBar */
+
+#sb-search.sb-open .sb-modal {
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  position: fixed;
+  top: 0;
+
+  display: grid;
+  place-content: center;
+
+  padding: 1rem;
+}
+
+#sb-search .sb-content .sb-search .sb-input .sb-back-icon {
+  margin-right: 10px !important;
+
+  display: flex !important;
+  align-self: center !important;
+  justify-content: center !important;
+}
+
+#sb-search .sb-search-field {
+    padding: 0 !important;
+}
+
+#sb-search.sb-dark-auto input {
+  color: var(--color-twy) !important;
+}
+
+#sb-search .sb-search-icon {
+  background: transparent !important;
+  color: var(--color-twy) !important;
+  border: 2px solid var(--color-btn-ony) !important;
+}
+
+#sb-search .sb-search-icon:hover {
+  transition: var(--animation) !important;
+  color: var(--color-nine) !important;
+  background: var(--color-btn-ony) !important;
+}
+
+#sb-search.sb-dark-auto .sb-icon {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.sb-text-container em {
+    color: var(--active) !important;
+}
+
+/* Remove Brand SearchBar */
+
+.sb-brand {
+  display: none !important;
+}
