@@ -199,10 +199,6 @@
   width: fit-content;
 }
 
-._yline {
-  transform: rotate(90deg);
-}
-
 /* logo_content */
 
 .logo_content {
