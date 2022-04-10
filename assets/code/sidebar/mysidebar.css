@@ -105,9 +105,9 @@
   display: flex;
 }
 
-.logo-name {
-  color: var(--color-eight);
-  font-size: 6rem;
+.logo-name img {
+  width: 6vw;
+  min-width: 30px;
 }
 
 .logo-name__button {

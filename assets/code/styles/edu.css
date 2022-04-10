@@ -249,7 +249,7 @@
 }
 
 .logo_content-edu,
-.logo_content-church {
+.logo_content-ccd {
   padding: 1rem 2rem;
 }
 
@@ -258,7 +258,7 @@
   border-right: 2px solid var(--color-ony);
 }
 
-.logo_content-church {
+.logo_content-ccd {
   width: fit-content;
   border-left: 2px solid var(--color-ony);
 }
@@ -726,7 +726,7 @@
 
 @media screen and (max-width: 520px) {
   .logo_content-edu,
-  .logo_content-church {
+  .logo_content-ccd {
     padding: 1rem;
   }
 }
@@ -760,7 +760,7 @@
     border: none;
   }
 
-  .logo_content-church {
+  .logo_content-ccd {
     display: none;
   }
 
@@ -770,7 +770,8 @@
 }
 
 @media screen and (max-width: 375px) {
-  ._nav-contents {
+  ._nav-contents,
+  .logo_content-edu {
     padding: 0;
   }
 
