@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Azonix";
+  src: url(https://dahvo8qvc67vr.cloudfront.net/wovSIuBa/Azonix.otf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Overpass:wght@400;500;600;700;800&display=swap");
+
+:root {
+  /* Backgrounds */
+  --background-primary: #f5f2f0;
+  --background-contents: #242020;
+  --background-hover: rgba(202, 202, 202, 0.2);
+
+  /* Colors */
+  --color-one: #a65d34;
+  --color-two: #d7a43a;
+  --color-three: #018dca;
+  --color-four: #b10338;
+  --color-five: #4d8c1e;
+  --color-six: #050505;
+  --color-seven: #be0000;
+  --color-eight: #d9e3e4;
+  --color-nine: #f7f7f7;
+  --color-ten: #b6b6b6;
+  --color-eleven: #8d8888;
+  --color-twelve: #0b0d17;
+
+  /* Colors B2.0 */
+  --color-ony: #595959;
+  --color-twy: #99a5a6;
+  --color-threy: #ecf7f8;
+  --color-foyr: #737474;
+
+  --color-btn-ony: #eca256;
+
+  /* shortcuts */
+  --animation: 0.5s;
+  --dalay: 0.3s;
+  --visited: #eca256;
+  --active: #edad6e;
+  --hover: #b5020b;
+  --hover-twy: #f5f2f0;
+  --hover-threy: #eca256;
+  --icon: 3rem;
+  --nones: none;
+  --showd: rgba(100, 100, 111, 0.2);
+
+  /* ScrollBar */
+  --scroll-bg: #242020;
+  --scroll-bar: #b6b6b6;
+
+  /* Fonts */
+  --h1: 800 4rem "Azonix", "Overpass", Arial, Helvetica, sans-serif;
+  --h2: 700 3rem "Overpass", Arial, Helvetica, sans-serif;
+  --h3: 600 2.25rem "Overpass", Arial, Helvetica, sans-serif;
+  --h4: 500 1.5rem "Overpass", Arial, Helvetica, sans-serif;
+  --h5: 500 1.25rem "Work Sans", Arial, Helvetica, sans-serif;
+  --h6: 400 1.125rem "Work Sans", Arial, Helvetica, sans-serif;
+  --text-primary: 500 1rem "Inter", Arial, Helvetica, sans-serif;
+  --text-complement: 400 0.875rem "Inter", Arial, Helvetica, sans-serif;
+  --text-additional: 400 0.75rem "Inter", Arial, Helvetica, sans-serif;
+}
+
+.ime-main {
+    padding: 2rem;
+}
+
+._efm-cronos {
+    width: 100%;
+
+    text-align: center;
+
+    border: 3px solid var(--color-twelve);
+}
+
+._efm-cr-header {
+    font: var(--h5);
+    color: var(--color-eight);
+
+    border: 3px solid var(--color-twelve);
+    background-color: var(--background-contents);
+}
+
+._efm-cr-header th {
+    line-height: 3rem;
+    border: 3px solid var(--color-twelve);
+}
+
+._efm-cr-main tr {
+    border: 3px solid var(--color-twelve);
+}
+
+._efm-cr-main td {
+    border-right: 3px solid var(--color-twelve);
+    line-height: 3rem;
+}
+
+._efm-cr-main th {
+    background-color: var(--background-contents);
+    color: var(--color-eight);
+    line-height: 3rem;
+
+    border-right: 3px solid var(--color-twelve);
+
+    font: var(--h5);
+}
