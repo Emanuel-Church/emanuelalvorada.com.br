@@ -74,8 +74,7 @@
 
 ._im-home,
 ._im-registration {
-  height: 40vh;
-  min-height: 15rem;
+  height: 25rem;
 
   position: relative;
 }
