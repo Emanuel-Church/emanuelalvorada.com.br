@@ -271,7 +271,9 @@
 @media screen and (max-width: 575px) {
   .side-bar.collapse .explorer-list,
   .side-bar.collapse .help-list,
-  .side-bar.collapse ._sb-line {
+  .side-bar.collapse ._sb-line,
+  .side-bar.collapse ._sb_login-list,
+  .side-bar.collapse ._sb_share-list {
     display: none !important;
   }
 

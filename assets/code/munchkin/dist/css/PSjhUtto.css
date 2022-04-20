@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: -webkit-fill-available;
+
+    /* Comment the colour of the background according to the test Munchkin you want to do */
+    /* background: black; Munchkin / Dark Mode */
+    background: white; /* Munchkin / Light Mode */
+}
+
+body {
+    height: inherit;
+
+    display: grid;
+    place-content: center;
+}
