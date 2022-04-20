@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+
+:root {
+  /* Backgrounds */
+  --munchkin-bg-primary: #f7f7f7;
+  --munchkin-bg-secondary: #d9e3e4;
+
+  /* Colors */
+  --munchkin-color-one: #808191;
+  --munchkin-color-two: #868588;
+  --munchkin-color-three: #050505;
+  --munchkin-color-four: #050505;
+
+  --munchkin-linear: linear-gradient(
+    90deg,
+    #1c5ca6 32.27%,
+    #1e5ca7 32.28%,
+    #6c5ecf 81.91%
+  );
+
+  /* Fonts */
+  --munchkin-font-primary: 400 15px "Inter", Arial, Helvetica, Sans-serif;
+  --munchkin-font-secondary: 500 16px "Inter", Arial, Helvetica, Sans-serif;
+  --munchkin-font-detail: 300 12px "Inter", Arial, Helvetica, Sans-serif;
+
+  /* Scroll */
+  --munchkin-scroll-bg: #4d4d57;
+  --munchkin-scroll-bar: transparent;
+
+  /* Other */
+  --munchkin-hover-primary: #868588;
+  --munchkin-hover-secondary: #808191;
+  --munchkin-animation: 0.5s;
+}
+
+/* Personalizar o Select */
+
+.j-munchkin {
+  font: var(--munchkin-font-primary);
+  color: var(--munchkin-color-main);
+
+  text-align: start;
+
+  background-color: var(--munchkin-bg-primary);
+  border: 2px solid var(--munchkin-color-one);
+
+  padding: 15px;
+  
+  height: auto;
+  width: 100%;
+  min-width: 20rem;
+
+  display: block;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  cursor: pointer;
+  clear: both;
+  float: left;
+
+  position: relative;
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  white-space: nowrap;
+}
+
+.j-munchkin:focus {
+  border: 2px solid var(--munchkin-color-two);
+  outline: none;
+}
+
+.j-munchkin:hover {
+  border-color: var(--munchkin-hover-primary); /* cor da borda do select ao passar o mouse */
+}
+
+.j-munchkin:active,
+.j-munchkin.open,
+.j-munchkin:focus {
+  border-color: var(--munchkin-hover-secondary); /* cor da borda quando o select estiver aberto */
+}
+
+.j-munchkin:after {
+  border-bottom: 2px solid var(--munchkin-color-three);
+  border-right: 2px solid var(--munchkin-color-three);
+
+  content: "";
+  display: block;
+  
+  height: 5px;
+  width: 5px;
+
+  margin-top: -5px;
+  pointer-events: none;
+  
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.j-munchkin.open:after {
+  -webkit-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.j-munchkin.open .list {
+  opacity: 1;
+  pointer-events: auto;
+  
+  overflow-y: auto;
+}
+
+.j-munchkin.wide {
+  width: 100%;
+}
+
+.j-munchkin.wide .list {
+  left: 0 !important;
+  right: 0 !important;
+}
+
+.j-munchkin.right {
+  float: right;
+}
+
+.j-munchkin.right .list {
+  left: auto;
+  right: 0;
+}
+
+.j-munchkin.small {
+  font-size: 12px;
+  height: 36px;
+  line-height: 34px;
+}
+
+.j-munchkin.small:after {
+  height: 4px;
+  width: 4px;
+}
+
+.j-munchkin.small .option {
+  line-height: 34px;
+  min-height: 34px;
+}
+
+.j-munchkin .list {
+  background-color: var(--munchkin-bg-primary);
+  border: 2px solid var(--munchkin-hover-secondary); /* cor da borda quando o select estiver aberto */
+  box-sizing: border-box;
+
+  width: 101.2%;
+  height: auto;
+  max-height: 50vh;
+
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  pointer-events: none;
+
+  position: absolute;
+  top: 100%;
+  left: -2px;
+
+  -webkit-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transform: scale(0.75) translateY(-21px);
+  -ms-transform: scale(0.75) translateY(-21px);
+  transform: scale(0.75) translateY(-21px);
+  -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
+    opacity 0.15s ease-out;
+  transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+
+  z-index: 9;
+
+  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+}
+
+.j-munchkin .list:hover .option:not(:hover) {
+  background-color: transparent !important;
+}
+
+.j-munchkin .option {
+  cursor: pointer;
+
+  line-height: 2.5rem; /* altura das options */
+  min-height: 22px; /* este valor deve ser o mesmo do acima */
+
+  list-style: none;
+  outline: none;
+
+  padding: 5px 20px;
+
+  text-align: left;
+
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.j-munchkin .option:hover,
+.j-munchkin .option.focus,
+.j-munchkin .option.selected.focus {
+  background-color: var(--munchkin-bg-secondary); /* corde fundo da option selecionada e ao passar o mouse */
+  color: var(--munchkin-color-four); /* cor da option ao passar o mouse e do item selecionado */
+}
+
+.j-munchkin .option.selected {
+  font-weight: 700;
+}
+
+.j-munchkin .option.disabled {
+  background-color: transparent;
+  color: var(--munchkin-color-two);
+  cursor: default;
+}
+
+.no-csspointerevents .j-munchkin .list {
+  display: none;
+}
+
+.no-csspointerevents .j-munchkin.open .list {
+  display: block;
+}

@@ -1,0 +1,26 @@
+{
+    "name": "munchkin",
+    "description": "Munchkin.JS is a JavaScript library that aims to make it easier to customize the Select tag so it's compatible across all browsers and gives the devs some extra coffee time.",
+    "version": "B3.0",
+    "main": "./dist/js/VGZsPN.js",
+    "author": {
+        "name": "Henry Rodrigues",
+        "email": "henry.rodrigues@flcompy.com",
+        "homepage": "hheenry.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hheenry/munchkin.js.git"
+    },
+    "homepage": "https://docs.flcompy.com/munchkin/",
+    "keywords": [
+        "biblioteca",
+        "munchkin",
+        "lib",
+        "javascript",
+        "css",
+        "html",
+        "js"
+    ]
+}
