@@ -17,8 +17,7 @@
 
 ._contents-banner,
 ._contents-banner_end {
-  height: 40vh;
-  min-height: 15rem;
+  height: 25rem;
 
   position: relative;
 
@@ -117,7 +116,7 @@
 }
 
 ._background_end {
-  background-image: url(http://upload.emanuelalvorada.com.br/search/image/1/6.jpg);
+  background-image: url(https://d8a923b1h5a1n.cloudfront.net/DcpX1TgC/22_04_2022/0oGPxGL8NySM.jpg);
 }
 
 ._hc-contents_end h2 {
