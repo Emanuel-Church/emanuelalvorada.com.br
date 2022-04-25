@@ -230,6 +230,8 @@
     outline: none;
     border: none;
     cursor: pointer;
+
+    z-index: 7;
 }
 
 ._ime-top.show {

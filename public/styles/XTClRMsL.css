@@ -68,6 +68,30 @@
     padding: 0;
 }
 
+strong {
+    font-weight: bold;
+}
+
+._btn-initial_next {
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--background-contents);
+
+    display: flex;
+    align-items: center;
+
+    width: fit-content;
+    margin-top: 25px;
+    padding: 10px 25px;
+
+    border: 2px solid var(--background-contents);
+    border-radius: 3px;
+}
+
+._btn-initial_next i {
+    font-size: 1.3rem;
+}
+
 /* Beta - Banner Home */
 
 ._ime-initial__home_cb {
@@ -181,4 +205,321 @@
     animation: var(--animation);
     color: var(--color-threy);
     background: var(--color-four);
+}
+
+/* Beta - Sobre */
+
+._ime-initial__sobre {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: auto;
+    padding: 25px 10px;
+
+    gap: 25px;
+}
+
+._ime-initial__sobre {
+    display: flex;
+    align-self: start;
+    justify-content: center;
+}
+
+
+._ime-initial__sobre__chamado-image {
+    background-image: url(https://d8a923b1h5a1n.cloudfront.net/DcpX1TgC/23_04_2022/4TG62gyjDp60.JPEG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 50%;
+    height: 25rem;
+}
+
+._ime-initial__sobre__chamado-info {
+    display: grid;
+
+    width: 50%;
+    margin: 15px 0;
+}
+
+._ime-initial__sobre__chamado-info h3 {
+    font: var(--h3);
+}
+
+._ime-initial__sobre__chamado-info p {
+    font: var(--text-primary);
+    text-align: justify;
+    line-height: 1.75rem;
+}
+
+._ime-initial__sobre__ime-grid-history {
+    display: grid;
+}
+
+._ime-initial__sobre__info-sociais {
+    display: flex;
+    flex-direction: row;
+}
+
+._ime-initial__sobre__info-sociais a {
+    font: var(--text-primary);
+    font-size: 1.2rem;
+    color: var(--color-twelve);
+
+    border: 2px solid var(--background-contents);
+    border-radius: 100%;
+    padding: 4px 7px;
+
+    text-decoration: none;
+
+    margin-right: 15px;
+}
+
+._ime-initial__sobre__info-sociais a:hover {
+    background-color: var(--background-contents);
+    color: var(--color-eight);
+
+    transition: var(--animation);
+}
+
+._btn-initial_next:hover {
+    background-color: var(--background-contents);
+    color: var(--color-eight);
+
+    animation: var(--animation);
+}
+
+@media screen and (max-width: 768px) {
+    ._ime-initial__sobre {
+        max-width: 85%;
+    }
+
+    ._ime-initial__sobre {
+        flex-direction: column;
+    }
+
+    ._ime-initial__sobre__chamado-image {
+        height: 20rem;
+        width: 100%;
+    }
+
+    ._ime-initial__sobre__chamado-info {
+        width: 100%;
+    }
+
+    ._ime-initial__sobre__ime-grid-history {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: -webkit-fill-available;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    ._ime-initial__sobre {
+        max-width: inherit;
+    }
+
+    ._ime-initial__sobre {
+        padding: 25px 0;
+    }
+
+    ._ime-initial__sobre__chamado-info {
+        padding: 0 10px;
+    }
+}
+
+/* Beta - EFM */
+
+._ime-initial__efm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 35rem;
+
+    position: relative;
+
+    width: 100%;
+    max-width: 1180px;
+
+    margin: 25px auto;
+}
+
+._init-efm-contents {
+    z-index: 2;
+
+    padding: 15px;
+}
+
+._init-efm-contents section {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+._init-efm-contents span {
+    font: var(--text-primary);
+    text-align: center;
+    color: var(--active);
+}
+
+._init-efm-contents h2 {
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#_efm-title {
+    font: var(--h1);
+    font-size: 2.6rem;
+    letter-spacing: 0.8rem;
+    line-height: 3.8rem;
+    text-align: center;
+    color: var(--color-eight);
+
+    margin: 2.5rem 0;
+}
+
+#_sigla-efm {
+    display: none;
+}
+
+._btn-initial_next-efm {
+    margin: auto;
+
+    border: 2px solid var(--color-four);
+    color: var(--color-eight);
+}
+
+._btn-initial_next-efm:hover {
+    background-color: var(--color-four);
+
+    animation: var(--animation);
+}
+
+._init-efm_bgs-image,
+._init-efm_bgs-effect {
+    width: -webkit-fill-available;
+    height: inherit;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+._init-efm_bgs-conts {
+    height: inherit;
+}
+
+._init-efm_bgs-image {
+    background-image: url(https://d8a923b1h5a1n.cloudfront.net/DcpX1TgC/24_04_2022/Fx7D48zgJgh0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: 0;
+}
+
+._init-efm_bgs-effect {
+    z-index: 1;
+    background-color: var(--color-twelve);
+    opacity: 0.8;
+}
+
+/* =========== MOBILE =========== */
+
+@media screen and (max-width: 1205px) {
+
+    /* EFM */
+    ._ime-initial__efm {
+        margin: 35px 20px;
+        max-width: -webkit-fill-available;
+    }
+}
+
+@media screen and (max-width: 898px) {
+
+    /* EFM */
+    #_efm-title {
+        font-size: 2rem;
+        letter-spacing: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 686px) {
+
+    /* EFM */
+    ._ime-initial__efm {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 686px) {
+
+    /* EFM */
+    #_efm-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    /* == Home == */
+    ._ime-initial__home_cb {
+        height: 35rem;
+    }
+
+    ._ime-initial__home-contents h1 {
+        font-size: 3rem;
+        letter-spacing: 0.8rem;
+        line-height: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    /* == Home == */
+    ._ime-initial__home-details {
+        font-size: 0.8rem;
+    }
+
+    ._ime-initial__home-contents h1 {
+        font-size: 2.3rem;
+        letter-spacing: 0.8rem;
+        line-height: 4.5rem;
+    }
+
+    ._ime-initial__home-contents nav {
+        flex-direction: column;
+    }
+
+    ._ime-initial__home-contents a {
+        width: -webkit-fill-available;
+
+        margin-bottom: 15px;
+    }
+
+    /* == EFM == */
+    #_efm-title {
+        display: none;
+    }
+
+    #_sigla-efm {
+        display: flex;
+        justify-content: center;
+
+        font: var(--h1);
+        font-size: 2.6rem;
+        letter-spacing: 0.8rem;
+        text-align: center;
+        color: var(--color-eight);
+
+        margin: 2.5rem 0;
+    }
 }
