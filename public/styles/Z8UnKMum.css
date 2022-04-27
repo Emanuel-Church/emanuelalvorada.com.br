@@ -18,6 +18,8 @@
   min-height: 15rem;
 
   position: relative;
+
+  display: flex;
 }
 
 ._bgs {

@@ -83,7 +83,9 @@
 
 .logo-name-wrapper,
 .explorer-list,
-.help-list {
+.help-list,
+._sb_login-list,
+._sb_share-list {
   display: grid;
   align-items: center;
   justify-content: space-between;
@@ -93,7 +95,9 @@
 
 .side-bar.collapse .logo-name-wrapper,
 .side-bar.collapse .explorer-list,
-.side-bar.collapse .help-list {
+.side-bar.collapse .help-list,
+.side-bar.collapse ._sb_login-list,
+.side-bar.collapse ._sb_share-list {
   justify-content: center;
 
   padding: 0 1rem;
@@ -151,7 +155,9 @@
 /* Texts SideBar */
 
 .menu-header,
-.help-header {
+.help-header,
+._sb_login-header,
+._sb_share-header {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -163,12 +169,16 @@
 }
 
 .menu-header span::after,
-.help-header span::after {
+.help-header span::after,
+._sb_login-header span::after,
+._sb_share-header span::after {
   content: none !important;
 }
 
 .explorer-list,
-.help-list {
+.help-list,
+._sb_login-list,
+._sb_share-list {
   display: grid;
   gap: 15px;
 }
@@ -196,9 +206,11 @@
   color: var(--hover-threy);
 }
 
-.icon-logo-ccd:hover,
-.icon-menu:hover,
-.icon-anchor:hover {
+.side-bar .icon-logo-ccd:hover,
+.side-bar .icon-menu:hover,
+.side-bar .icon-anchor:hover,
+.side-bar .icon-user
+.side-bar .icon-share-2 {
   color: var(--color-ten) !important;
 }
 
@@ -250,14 +262,18 @@
 }
 
 .side-bar.collapse .icon-menu,
-.side-bar.collapse .icon-anchor {
+.side-bar.collapse .icon-anchor,
+.side-bar.collapse .icon-user,
+.side-bar.collapse .icon-share-2 {
   font-size: 1.3rem;
 }
 
 @media screen and (max-width: 575px) {
   .side-bar.collapse .explorer-list,
   .side-bar.collapse .help-list,
-  .side-bar.collapse ._sb-line {
+  .side-bar.collapse ._sb-line,
+  .side-bar.collapse ._sb_login-list,
+  .side-bar.collapse ._sb_share-list {
     display: none !important;
   }
 
@@ -290,3 +306,37 @@
     place-content: center !important;
   }
 }
+
+/* Beta Start */
+
+.side-bar.collapse ._sb_login-header,
+.side-bar.collapse ._sb_share-header {
+  cursor: pointer;
+}
+
+.side-bar.collapse .icon-user:hover,
+.side-bar.collapse .icon-share-2:hover {
+  color: var(--hover-threy) !important;
+}
+
+.side-bar .icon-user:hover,
+.side-bar .icon-share-2:hover {
+  color: var(--color-ten) !important;
+}
+
+.side-bar.collapse ._sb_login-header,
+.side-bar.collapse ._sb_share-header {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.side-bar.collapse ._sb_login-header:hover ._sb-colab-effect,
+.side-bar.collapse ._sb_share-header:hover ._sb-colab-effect {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Beta End */

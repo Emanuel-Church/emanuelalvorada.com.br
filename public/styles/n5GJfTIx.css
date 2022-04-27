@@ -14,8 +14,7 @@
 /* = Banner = */
 
 ._contents-banner {
-  height: 65vh;
-  min-height: 15rem;
+  height: 35rem;
 
   position: relative;
 
@@ -86,7 +85,7 @@
 }
 
 ._background {
-  background-image: url(https://d8a923b1h5a1n.cloudfront.net/DcpX1TgC/12_03_2022/IMG_3390.JPEG);
+  background-image: url(https://d8a923b1h5a1n.cloudfront.net/DcpX1TgC/12_03_2022/k9P4vtulGssc.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

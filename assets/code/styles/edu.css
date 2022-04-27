@@ -326,7 +326,7 @@
 }
 
 ._nav-contents {
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
 }
 
 .logo_content a {
@@ -349,7 +349,7 @@
 }
 
 ._im-list {
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 ._menu a {
@@ -568,8 +568,8 @@
     display: grid;
     place-content: center;
 
-    margin-bottom: 5px;
-    margin-top: 35px;
+    margin: 0;
+    gap: 0.7rem;
   }
 
   ._menu.show {
@@ -765,7 +765,7 @@
   }
 
   ._nav-contents {
-    justify-content: end !important;
+    width: fit-content;
   }
 }
 
