@@ -1,0 +1,236 @@
+/* Banner / Styles */
+
+._ime-home {
+    margin-bottom: 50px;
+}
+
+.___home-info {
+    position: absolute;
+    z-index: 99;
+}
+
+.___home-info {
+    height: 100%;
+    max-height: 30rem;
+
+    display: grid;
+    align-items: center;
+}
+
+.___home-info {
+    color: var(--color-eight);
+}
+
+.___home-info section {
+    margin-left: 8vw;
+}
+
+.___home-info h1 {
+    font: var(--h1);
+    font-size: 4rem;
+    letter-spacing: 1.5rem;
+    line-height: 5rem;
+}
+
+.___home-backg {
+    position: relative;
+}
+
+.background__home____effect {
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 30rem;
+    position: absolute;
+}
+
+.background__home____image {
+    background-image: url(https://d8a923b1h5a1n.cloudfront.net/DcpX1TgC/04_04_2022/UgUC9NHboKuZ.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 30rem;
+
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .___home-info h1 {
+        font-size: 2.5rem;
+        line-height: 3.8rem;
+        letter-spacing: .8rem;
+    }
+
+    .background__home____image,
+    .background__home____effect,
+    .___home-info {
+        width: 100%;
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .___home-info h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        letter-spacing: .5rem;
+    }
+}
+
+/* Agenda / Content */
+
+.__ime-content {
+    margin: 15vh 2vw;
+}
+
+.__agenda {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.___agenda-list {
+    display: grid;
+    gap: 25px;
+
+    margin: auto;
+
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.___agenda-list li {
+    width: fit-content;
+}
+
+.grups {
+    display: flex;
+    align-items: center;
+
+    width: max-content;
+
+    margin-bottom: 10px;
+}
+
+.grups div {
+    max-width: 17rem;
+}
+
+.__agenda hr {
+    background: var(--color-twelve);
+}
+
+.grups span {
+    font: var(--font-secondary);
+    font-weight: 500;
+    font-size: 25px;
+
+    color: var(--color-nine);
+
+    border-radius: 7px;
+
+    width: 60px;
+    height: 60px;
+
+    display: grid;
+    place-content: center;
+
+    margin-right: 15px;
+}
+
+.brow span {
+    background-color: var(--color-one);
+}
+
+.yellow span {
+    background-color: var(--color-two);
+}
+
+.blue span {
+    background-color: var(--color-three);
+}
+
+.red span {
+    background-color: var(--color-eleven);
+}
+
+.green span {
+    background-color: var(--color-five);
+}
+
+.grups h6 {
+    font: var(--font-primary);
+    font-size: 18px;
+}
+
+.brow h6 {
+    color: var(--color-one);
+}
+
+.yellow h6 {
+    color: var(--color-two);
+}
+
+.blue h6 {
+    color: var(--color-three);
+}
+
+.red h6 {
+    color: var(--color-eleven);
+}
+
+.green h6 {
+    color: var(--color-five);
+}
+
+.grups p {
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1130px) {
+    .___agenda-list {
+        grid-template-columns: repeat(2, 1fr);
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .___agenda-list {
+        grid-template-columns: repeat(1, 1fr);
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .grups span {
+        width: 45px;
+        height: 45px;
+
+        margin-right: 7px;
+    }
+
+    .grups div {
+        max-width: 15.8rem;
+    }
+}
+
+/* Live */
+
+#__live-banner {
+    background-image: url(https://upload.emanuelalvorada.com.br/search/image/1/158.jpg);
+    background-position: top;
+}
+
+/* V.1.4.2 */
+
+.___home-info h1 {
+    width: fit-content;
+    text-transform: uppercase;
+}
+
+.grups span {
+    user-select: none;
+}
