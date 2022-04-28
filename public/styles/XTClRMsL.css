@@ -452,6 +452,21 @@ strong {
     }
 }
 
+@media screen and (max-width: 768px) {
+    ._ime-initial__sobre-grid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+
+        margin-top: 25px;
+    }
+
+    ._btn-initial_next-sobre {
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 686px) {
 
     /* EFM */
@@ -503,6 +518,16 @@ strong {
         width: -webkit-fill-available;
 
         margin-bottom: 15px;
+    }
+
+    /* == Sobre == */
+    ._ime-initial__sobre-grid {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    ._btn-initial_next-sobre {
+        margin-top: 15px;
     }
 
     /* == EFM == */
