@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <meta charset="utf-8">
+    <meta name="language" content="pt-BR">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Estamos perdidos? | Igreja Emanuel</title>
-    <meta name="description" content="">
     <meta name="robots" content="none">
     <meta name="author" content="Igreja Missionária Emanuel">
     <meta name="keywords" content="Igreja, Igreja em Alvorada, Igreja na Aparecida, Igreja Emanuel, Igreja Missionária, Igreja Missionária Emanuel, IME, ime, I.M.E, Igreja IME, Igreja I.M.E, Igreja Emanuel I.M.E, Igreja Emanuel IME">
@@ -10,26 +14,14 @@
     <meta property="og:type" content="page">
     <meta property="og:url" content="https://emanuelalvorada.com.br/err/404/">
     <meta property="og:title" content="Estamos perdidos? | Igreja Emanuel">
-    <meta property="og:image" content="https://emanuelalvorada.com.br/err/brand/opg.png">
-    <meta property="og:description" content="">
+    <meta property="og:image" content="https://emanuelalvorada.com.br/err/assets/brand/opg.png">
     
     <meta property="article:author" content="Igreja Missionária Emanuel">
     
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@">
     <meta name="twitter:title" content="Estamos perdidos? | Igreja Emanuel">
-    <meta name="twitter:creator" content="@">
-    <meta name="twitter:description" content="">
     
     <!-- Google Tags -->
-        <!-- Tag Manager -->
-        <script>
-	        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer',' GTM-P6P8BT9');
-        </script>
         <!-- Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-4S2R4RJN1R"></script>
         <script>
@@ -56,7 +48,7 @@
 
     <!-- My Codes -->
     <link rel="stylesheet" href="/err/assets/config/main.css">
-    <link rel="stylesheet" href="/err/public/styles/main.css">
+    <link rel="stylesheet" href="/err/public/styles/pages.css">
     <link rel="stylesheet" href="/err/public/styles/tVc4kwuF1Of5.css">
     <!-- My Brand -->
     <link rel="shortcut icon" href="/err/assets/brand/favicon.ico" type="image/x-icon">
@@ -66,20 +58,15 @@
     <link rel="stylesheet" href="/err/assets/config/searchbar.css">
     <link rel="stylesheet" href="/err/assets/config/mysearchbar.css">
     <link rel="stylesheet" href="/err/assets/icomoon.io/style.css">
-
-    <meta charset="utf-8">
-    <meta name="language" content="pt-BR">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="_ime" id="_ime">
     <header class="ime-header" id="header">
         <section class="_ime-subheader">
             <nav class="_imeh-hostlink">
                 <a href="https://emanuelalvorada.com.br/?track=emanuelalvorada.com.br-path=subheader" target="_blank" rel="noopener noreferrer">Igreja Emanuel</a>
-                <a href="https://emanuelalvorada.com.br/ministerios/?track=emanuelalvorada.com.br-path=subheader" target="_blank" rel="noopener noreferrer">Ministérios</a>
-                <a href="https://emanuelalvorada.com.br/eventos/?track=emanuelalvorada.com.br-path=subheader" target="_blank" rel="noopener noreferrer">Eventos</a>
-                <a href="https://emanuelalvorada.com.br/edu/ccd/?track=emanuelalvorada.com.br-path=subheader" title="Centro de Crecimento em Deus">CCD</a>
+                <a href="/ministerios/?track=emanuelalvorada.com.br-path=subheader" target="_blank" rel="noopener noreferrer">Ministérios</a>
+                <a href="/eventos/?track=emanuelalvorada.com.br-path=subheader" target="_blank" rel="noopener noreferrer">Eventos</a>
+                <a href="/edu/ccd/?track=emanuelalvorada.com.br-path=subheader" title="Centro de Crecimento em Deus">CCD</a>
             </nav>
             <nav class="_imeh-hostsocial">
                 <a href="http://facebook.com/IgrejaMissionariaEmanuelAlvorada" target="_blank" rel="noopener noreferrer">
@@ -97,21 +84,10 @@
         <section class="_ime-header">
             <div class="logo_content">
                 <a href="https://emanuelalvorada.com.br/?track=emanuelalvorada.com.br-path=header">
-                    <img src="/assets/brand/logo.png" alt="Logo | Igreja Emanuel">
+                    <img src="https://d8a923b1h5a1n.cloudfront.net/brand/logo.png" alt="Logo | Igreja Emanuel">
                 </a>
             </div>
             <div class="_nav-contents">
-                <nav class="_hostmenu">
-                    <li class="_galyapp"><i class="icon-grid"></i>
-                        <p class="_arrow-db-app"></p>
-                        <ul class="_app-list">
-                            <li><a href="https://emanuelalvorada.com.br/?track=emanuelalvorada.com.br-path=subheader" target="_blank" rel="noopener noreferrer">Igreja Emanuel</a></li>
-                            <li><a href="https://emanuelalvorada.com.br/ministerios/?track=emanuelalvorada.com.br-path=subheader" target="_blank" rel="noopener noreferrer">Ministérios</a></li>
-                            <li><a href="https://emanuelalvorada.com.br/eventos/?track=emanuelalvorada.com.br-path=subheader" target="_blank" rel="noopener noreferrer">Eventos</a></li>
-                            <li><a href="https://emanuelalvorada.com.br/edu/ccd/?track=emanuelalvorada.com.br-path=subheader" title="Centro de Crecimento em Deus">CCD</a></li>
-                        </ul>
-                    </li>
-                </nav>
                 <nav class="_menu">
                     <ul class="_im-list">
                         <li><a href="/?track=emanuelalvorada.com.br-path=header">Início</a></li>
@@ -133,7 +109,7 @@
                         </li>
                         <li><a href="/sobre/?track=emanuelalvorada.com.br-path=header">Quem somos</a></li>
                         <li><a href="/contato/?track=emanuelalvorada.com.br-path=header">Contato</a></li>
-                        <li><a href="/contribua/?track=emanuelalvorada.com.br-path=header">Contribua</a></li>
+                        <li><a href="/apoiar/?track=emanuelalvorada.com.br-path=header">Contribua</a></li>
                     </ul>
                     <div class="_im-search">
                         <div id='sb-search-input-example'>
@@ -165,7 +141,6 @@
         <section class="_ime-main">
             <h2>404</h2>
             <p>Parece que estamos perdidos, que tal voltar para o inicio da trilha ou tentar usar um mapa?</p>
-            <a href="mailto:ime@forml.link?cc=iemanuelalvorada@gmail.com&subject=Contact%20by%20the%20site%20%7Bemanuelalvorada.com.br%7D%20-%20Error%20404&body=While%20browsing%20the%20site%20emanuelalvorada.com.br%20the%20following%20error%20occurred%3A%20Err%20404%20-%20Error%20page%20not%20found.">Contato</a>
             <nav>
                 <section>
                     <a class="_ime-home_a" href="/?track=emanuelalvorada.com.br-path=main-subpath=err.404">Home&nbsp;<i class="icon-home"></i></a>
@@ -179,7 +154,7 @@
             <nav class="_hostnavigation">
                 <a href="/?track=emanuelalvorada.com.br-path=sobfooter">IME</a>
                 <p>></p>
-                <a href="/err/?track=emanuelalvorada.com.br-path=sobfooter">Err</a>
+                <a href="/err/?track=emanuelalvorada.com.br-path=sobfooter">Erro</a>
                 <p>></p>
                 <a href="/err/404/?track=emanuelalvorada.com.br-path=sobfooter">404</a>
             </nav>
@@ -244,6 +219,22 @@
                         <a href="/ministerios/culinaria/?track=emanuelalvorada.com.br-path=footer">Culinária</a>
                     </nav>
                 </li>
+                <li class="_flist-ccd">
+                    <h6 title="Centro de Crecimento em Deus">CCD</h6>
+                    <nav class="_flist-contents">
+                        <a href="/edu/ccd/?track=emanuelalvorada.com.br-path=footer">Início</a>
+                        <a href="/edu/ccd/efm/?track=emanuelalvorada.com.br-path=footer" title="Escola de Formacao Ministerial">EFM</a>
+                    </nav>
+                </li>
+                <li class="_flist-tools">
+                    <h6>Sites</h6>
+                    <nav class="_flist-contents">
+                        <a href="https://emanuelalvorada.com.br/?track=emanuelalvorada.com.br-path=footer" target="_blank" rel="noopener noreferrer">Igreja Emanuel</a>
+                        <a href="/ministerios/?track=emanuelalvorada.com.br-path=footer" target="_blank" rel="noopener noreferrer">Ministérios</a>
+                        <a href="/eventos/?track=emanuelalvorada.com.br-path=footer" target="_blank" rel="noopener noreferrer">Eventos</a>
+                        <a href="/edu/ccd/?track=emanuelalvorada.com.br-path=footer" title="Centro de Crecimento em Deus">CCD</a>
+                    </nav>
+                </li>
                 <li class="_flist-social">
                     <h6>Mídias</h6>
                     <nav class="_flist-contents">
@@ -253,15 +244,6 @@
                         <a href="https://youtube.com/channel/UCunsRddhDx1XfUd-j3VC2RA">Youtube</a>
                     </nav>
                 </li>
-                <li class="Ferramentas">
-                    <h6>Sites</h6>
-                    <nav class="_flist-contents">
-                        <a href="https://emanuelalvorada.com.br/?track=emanuelalvorada.com.br-path=footer" target="_blank" rel="noopener noreferrer">Igreja Emanuel</a>
-                        <a href="https://emanuelalvorada.com.br/ministerios/?track=emanuelalvorada.com.br-path=footer" target="_blank" rel="noopener noreferrer">Ministérios</a>
-                        <a href="https://emanuelalvorada.com.br/eventos/?track=emanuelalvorada.com.br-path=footer" target="_blank" rel="noopener noreferrer">Eventos</a>
-                        <a href="https://emanuelalvorada.com.br/edu/ccd/?track=emanuelalvorada.com.br-path=footer" title="Centro de Crecimento em Deus">CCD</a>
-                    </nav>
-                </li>
             </ul>
         </section>
         <div class="_dlines"></div>
@@ -269,22 +251,15 @@
             <p>©&nbsp;<span id="copyright"></span>&nbsp;Igreja Emanuel</p>
             <nav class="_imef-hostlink">
                 <a href="https://emanuelalvorada.com.br/?track=emanuelalvorada.com.br-path=subfooter" target="_blank" rel="noopener noreferrer">Igreja Emanuel</a>
-                <a href="https://emanuelalvorada.com.br/ministerios/?track=emanuelalvorada.com.br-path=subfooter" target="_blank" rel="noopener noreferrer">Ministérios</a>
-                <a href="https://emanuelalvorada.com.br/eventos/?track=emanuelalvorada.com.br-path=subfooter" target="_blank" rel="noopener noreferrer">Eventos</a>
-                <a href="https://emanuelalvorada.com.br/edu/ccd/?track=emanuelalvorada.com.br-path=subfooter" title="Centro de Crecimento em Deus">CCD</a>
+                <a href="/ministerios/?track=emanuelalvorada.com.br-path=subfooter" target="_blank" rel="noopener noreferrer">Ministérios</a>
+                <a href="/eventos/?track=emanuelalvorada.com.br-path=subfooter" target="_blank" rel="noopener noreferrer">Eventos</a>
+                <a href="/edu/ccd/?track=emanuelalvorada.com.br-path=subfooter" title="Centro de Crecimento em Deus">CCD</a>
             </nav>
         </section>
     </footer>
 
-    <!-- BackToTop -->
-    <!-- <button id="ime-top" class="_ime-top"><i class="icon-chevron-up"></i></button> -->
-
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="/err/public/script/main.js"></script>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=" GTM-P6P8BT9 height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
+    <script src="/public/script/main.js"></script>
 </body>
 </html>

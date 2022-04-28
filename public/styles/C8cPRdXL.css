@@ -259,12 +259,12 @@
 }
 
 ._cts-network a {
-  background: var(--background-contents);
+  border: 2px solid var(--background-contents);
   border-radius: 50%;
 
   text-decoration: none;
 
-  color: var(--color-eleven);
+  color: var(--color-twelve);
 
   display: flex;
   align-items: center;
@@ -280,7 +280,8 @@
 
 ._cts-network a:hover {
   filter: drop-shadow(var(--showds));
-  color: var(--color-btn-ony);
+  color: var(--color-eight);
+  background-color: var(--background-contents);
 
   transition: var(--animation);
 }
