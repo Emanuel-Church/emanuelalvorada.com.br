@@ -1,7 +1,8 @@
 @font-face {
   font-family: "Azonix";
-  src: url(https://dahvo8qvc67vr.cloudfront.net/wovSIuBa/Azonix.otf);
+  src: url(https://d8a923b1h5a1n.cloudfront.net/wovSIuBa/Azonix.otf);
 }
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Overpass:wght@400;500;600;700;800&display=swap");
 
 :root {
@@ -43,7 +44,6 @@
   --icon: 3rem;
   --nones: none;
   --showd: rgba(100, 100, 111, 0.2);
-  --showds: rgba(0, 0, 0, 0.55) 0px 5px 15px;
 
   /* ScrollBar */
   --scroll-bg: #242020;
