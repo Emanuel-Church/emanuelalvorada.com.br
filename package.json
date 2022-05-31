@@ -1,0 +1,50 @@
+{
+  "name": "beta.emanuelalvorada.com",
+  "version": "B2.1.0",
+  "description": "Somos a igreja Emanuel uma família em Cristo que tem objetivo de crescer em união e levar o evangelho com todos os ministérios unidos.",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Emanuel-Church/emanuelalvorada.com.br.git"
+  },
+  "keywords": [
+    "Deus",
+    "Conosco!",
+    "Igreja",
+    "Igreja",
+    "em",
+    "Alvorada",
+    "Igreja",
+    "na",
+    "Aparecida",
+    "Igreja",
+    "Emanuel",
+    "Igreja",
+    "Missionária",
+    "Igreja",
+    "Missionária",
+    "Emanuel",
+    "IME",
+    "ime",
+    "I.M.E",
+    "Igreja",
+    "IME",
+    "Igreja",
+    "I.M.E",
+    "Igreja",
+    "Emanuel",
+    "I.M.E",
+    "Igreja",
+    "Emanuel",
+    "IME"
+  ],
+  "author": "Igreja Emanuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Emanuel-Church/emanuelalvorada.com.br/issues"
+  },
+  "homepage": "https://github.com/Emanuel-Church/emanuelalvorada.com.br#readme"
+}
