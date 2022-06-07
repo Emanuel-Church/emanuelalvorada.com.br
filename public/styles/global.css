@@ -1,97 +1,5 @@
-/* === Root Global === */
-@font-face {
-  font-family: "Azonix";
-  src: url(https://d8a923b1h5a1n.cloudfront.net/wovSIuBa/Azonix.otf);
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Overpass:wght@400;500;600;700;800&display=swap");
-
-:root {
-  /* == B2.1.6 == */
-  /* Background */
-  --bg-101: #f5f2f0;
-  --bg-102: #242020;
-  --bg-103: #423e3e;
-  --bg-104: #b6b6b6;
-  /* Fonts */
-  --font-201: 800 4rem "Azonix", "Overpass", Arial, Helvetica, sans-serif;
-  --font-202: 800 3rem "Overpass", Arial, Helvetica, sans-serif;
-  --font-203: 700 2.25rem "Overpass", Arial, Helvetica, sans-serif;
-  --font-204: 600 1.5rem "Overpass", Arial, Helvetica, sans-serif;
-  --font-205: 500 1.25rem "Overpass", Arial, Helvetica, sans-serif;
-  --font-206: 500 1.125rem "Overpass", Arial, Helvetica, sans-serif;
-  --font-207: 500 1rem "Inter", Arial, Helvetica, sans-serif;
-  --font-208: 400 0.875rem "Inter", Arial, Helvetica, sans-serif;
-  --font-209: 400 0.75rem "Inter", Arial, Helvetica, sans-serif;
-  /* Colors */
-  --color-301: #0b0d17;
-  --color-302: #595959;
-  --color-303: #ecf7f8;
-  --color-304: #d9e3e4;
-  --color-305: #eca256;
-  --color-306: #b5020b;
-  --color-307: #b0b7b8;
-  /* Effects */
-  --effect-401: #b5020b;
-  --effect-402: #eca256;
-  --effect-403: #f5f2f0;
-  --effect-404: #eca256;
-  --effect-405: rgba(100, 100, 111, 0.2);
-  --effect-406: rgba(202, 202, 202, 0.2);
-  --effect-407: 0.5s;
-  --effect-408: 0.3s;
-  --effect-409: 3rem;
-  --effect-410: none;
-  --effect-411: rgba(255, 255, 255, 0.1);
-
-  /* == M2.0.19 == */
-  /* Backgrounds */
-  --background-primary: #f5f2f0;
-  --background-contents: #242020;
-  --background-hover: rgba(202, 202, 202, 0.2);
-  /* Colors */
-  --color-one: #a65d34;
-  --color-two: #d7a43a;
-  --color-three: #018dca;
-  --color-four: #b10338;
-  --color-five: #4d8c1e;
-  --color-six: #050505;
-  --color-seven: #be0000;
-  --color-eight: #d9e3e4;
-  --color-nine: #f7f7f7;
-  --color-ten: #b6b6b6;
-  --color-eleven: #8d8888;
-  --color-twelve: #0b0d17;
-  /* Colors B2.0 */
-  --color-ony: #595959;
-  --color-twy: #99a5a6;
-  --color-threy: #ecf7f8;
-  --color-foyr: #737474;
-  --color-btn-ony: #eca256;
-  /* shortcuts */
-  --animation: 0.5s;
-  --dalay: 0.3s;
-  --visited: #eca256;
-  --active: #edad6e;
-  --hover: #b5020b;
-  --hover-twy: #f5f2f0;
-  --hover-threy: #eca256;
-  --icon: 3rem;
-  --nones: none;
-  --showd: rgba(100, 100, 111, 0.2);
-  /* ScrollBar */
-  --scroll-bg: #242020;
-  --scroll-bar: #b6b6b6;
-  /* Fonts */
-  --h1: 800 4rem "Azonix", "Overpass", Arial, Helvetica, sans-serif;
-  --h2: 700 3rem "Overpass", Arial, Helvetica, sans-serif;
-  --h3: 600 2.25rem "Overpass", Arial, Helvetica, sans-serif;
-  --h4: 500 1.5rem "Overpass", Arial, Helvetica, sans-serif;
-  --h5: 500 1.25rem "Work Sans", Arial, Helvetica, sans-serif;
-  --h6: 400 1.125rem "Work Sans", Arial, Helvetica, sans-serif;
-  --text-primary: 500 1rem "Inter", Arial, Helvetica, sans-serif;
-  --text-complement: 400 0.875rem "Inter", Arial, Helvetica, sans-serif;
-  --text-additional: 400 0.75rem "Inter", Arial, Helvetica, sans-serif;
+.ime {
+  background: var(--bg-101);
 }
 
 /* == FOOTER == */
@@ -100,10 +8,10 @@
   align-items: center;
   justify-content: space-between;
 
-  max-width: 95rem;
+  max-width: 85rem;
   margin: auto;
-
-  padding: 2rem;
+  
+  padding: 0.8rem 2rem;
 }
 
 .ime-footer ._sobfooter a {
