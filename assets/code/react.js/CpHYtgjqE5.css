@@ -33,7 +33,7 @@
 .__ime-header ._menu-dk .nav a,
 .__ime-header ._menu-dkml ._pover-button {
   font-weight: 600 !important;
-  color: var(--color-307) !important;
+  color: var(--color-307);
 }
 .__ime-header ._menu-dk .nav a:hover {
   transition: all var(--effect-407);
@@ -335,195 +335,6 @@
   transition: all var(--effect-407);
   background-color: #ffffff1a !important;
 }
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-.ime h1,
-.ime h2,
-.ime h3,
-.ime h4,
-.ime h5,
-.ime h6,
-.ime p,
-.ime a,
-.ime span,
-.ime i,
-.ime b,
-.ime li {
-  color: var(--color-301);
-}
-.ime p,
-.ime a,
-.ime span,
-.ime i,
-.ime b,
-.ime li {
-  font: var(--font-207);
-}
-.ime button,
-.ime header,
-.ime footer {
-  user-select: none;
-}
-.ime h1 {
-  font: var(--font-201);
-}
-.ime h2 {
-  font: var(--font-202);
-}
-.ime h3 {
-  font: var(--font-203);
-}
-.ime h4 {
-  font: var(--font-204);
-}
-.ime h5 {
-  font: var(--font-205);
-}
-.ime h6 {
-  font: var(--font-206);
-}
-.ime a,
-.ime button {
-  position: relative;
-  background-color: transparent;
-  border-color: transparent;
-  border-radius: 0;
-}
-.ime strong {
-  font-weight: 700;
-}
-.ime a:hover,
-.ime button:hover {
-  transition: all var(--effect-407);
-}
-.ime,
-html {
-  padding: 0 !important;
-  margin: 0;
-  overflow: auto !important;
-  font: var(--font-207);
-}
 .ime-header,
 .ime-footer {
   background: var(--bg-102);
@@ -730,12 +541,12 @@ webkit.__ime-sobheader .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
-  height: fit-content;
+  height: max-content;
 }
 ._ft-nav-collums {
   display: grid;
   gap: 3rem;
-  height: fit-content;
+  height: max-content;
 }
 ._discl {
   width: 100%;
@@ -1043,4 +854,11 @@ webkit.__ime-sobheader .container {
   ._dialog-panel button {
     width: auto;
   }
+}
+
+/* B2.1.2 */
+
+.ime .__ime-sobheader .container {
+  display: grid;
+  place-content: center;
 }

@@ -1,8 +1,10 @@
 /* === Root Global === */
 @font-face {
   font-family: "Azonix";
-  src: url("https://d8a923b1h5a1n.cloudfront.net/wovSIuBa/Azonix.woff") format("woff"),
-    url("https://d8a923b1h5a1n.cloudfront.net/wovSIuBa/Azonix.otf") format("otf");
+  src: url("https://d8a923b1h5a1n.cloudfront.net/wovSIuBa/Azonix.woff")
+      format("woff"),
+    url("https://d8a923b1h5a1n.cloudfront.net/wovSIuBa/Azonix.otf")
+      format("otf");
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Overpass:wght@400;500;600;700;800&display=swap");
@@ -320,7 +322,7 @@ table {
   -webkit-user-select: none;
 
   padding: 1rem 1.5rem;
-  
+
   display: flex;
   align-self: center;
 }
@@ -328,7 +330,6 @@ table {
 .ime ._config-501 i {
   font-weight: 600;
   color: var(--color-304);
-
 }
 
 .ime ._config-501:hover {
@@ -341,7 +342,7 @@ table {
   border: 2px solid var(--bg-102);
   border-radius: 5px;
 
-  padding: .8rem 1.2rem;
+  padding: 0.8rem 1.2rem;
   margin-top: 1.2rem;
 
   width: max-content;
@@ -401,4 +402,56 @@ table {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.ime ._config-505 {
+  text-decoration: none;
+  font: var(--font-208);
+
+  position: relative;
+}
+
+.ime ._config-505:hover {
+  transition: all var(--effect-407);
+  color: var(--effect-402);
+}
+
+.ime ._config-505::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -4px;
+  left: 0;
+  background: var(--effect-402);
+  -webkit-transform-origin: bottom right;
+  transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1),
+    -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.ime ._config-505:hover::after {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+  transform-origin: bottom left;
+}
+
+.ime ._config-506 {
+  font: var(--font-207);
+  color: var(--color-305);
+}
+
+.ime ._config-506 i {
+  background: var(--color-305);
+
+  height: 2px;
+  width: 1rem;
+
+  margin-right: 10px;
 }

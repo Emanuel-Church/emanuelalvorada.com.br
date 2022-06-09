@@ -1,0 +1,300 @@
+:root {
+  font-size: 16px;
+
+  /* == B2.1.6 == */
+  /* Background */
+  --bg-101: #f5f2f0;
+  --bg-102: #242020;
+  --bg-103: #423e3e;
+  --bg-104: #b6b6b6;
+  /* Fonts */
+  --font-201: 800 4rem "Azonix", "Overpass", Arial, Helvetica, sans-serif;
+  --font-202: 800 3rem "Overpass", Arial, Helvetica, sans-serif;
+  --font-203: 700 2.25rem "Overpass", Arial, Helvetica, sans-serif;
+  --font-204: 600 1.5rem "Overpass", Arial, Helvetica, sans-serif;
+  --font-205: 500 1.25rem "Overpass", Arial, Helvetica, sans-serif;
+  --font-206: 500 1.125rem "Overpass", Arial, Helvetica, sans-serif;
+  --font-207: 500 1rem "Inter", Arial, Helvetica, sans-serif;
+  --font-208: 400 0.875rem "Inter", Arial, Helvetica, sans-serif;
+  --font-209: 400 0.75rem "Inter", Arial, Helvetica, sans-serif;
+  /* Colors */
+  --color-301: #0b0d17;
+  --color-302: #595959;
+  --color-303: #ecf7f8;
+  --color-304: #d9e3e4;
+  --color-305: #eca256;
+  --color-306: #b5020b;
+  --color-307: #b0b7b8;
+  /* Effects */
+  --effect-401: #b5020b;
+  --effect-402: #eca256;
+  --effect-403: #f5f2f0;
+  --effect-404: #eca256;
+  --effect-405: rgba(100, 100, 111, 0.2);
+  --effect-406: rgba(202, 202, 202, 0.2);
+  --effect-407: 0.5s;
+  --effect-408: 0.3s;
+  --effect-409: 3rem;
+  --effect-410: none;
+  --effect-411: rgba(255, 255, 255, 0.1);
+
+  /* == M2.0.19 == */
+  /* Backgrounds */
+  --background-primary: #f5f2f0;
+  --background-contents: #242020;
+  --background-hover: rgba(202, 202, 202, 0.2);
+  /* Colors */
+  --color-one: #a65d34;
+  --color-two: #d7a43a;
+  --color-three: #018dca;
+  --color-four: #b10338;
+  --color-five: #4d8c1e;
+  --color-six: #050505;
+  --color-seven: #be0000;
+  --color-eight: #d9e3e4;
+  --color-nine: #f7f7f7;
+  --color-ten: #b6b6b6;
+  --color-eleven: #8d8888;
+  --color-twelve: #0b0d17;
+  /* Colors B2.0 */
+  --color-ony: #595959;
+  --color-twy: #99a5a6;
+  --color-threy: #ecf7f8;
+  --color-foyr: #737474;
+  --color-btn-ony: #eca256;
+  /* shortcuts */
+  --animation: 0.5s;
+  --dalay: 0.3s;
+  --visited: #eca256;
+  --active: #edad6e;
+  --hover: #b5020b;
+  --hover-twy: #f5f2f0;
+  --hover-threy: #eca256;
+  --icon: 3rem;
+  --nones: none;
+  --showd: rgba(100, 100, 111, 0.2);
+  /* ScrollBar */
+  --scroll-bg: #242020;
+  --scroll-bar: #b6b6b6;
+  /* Fonts */
+  --h1: 800 4rem "Azonix", "Overpass", Arial, Helvetica, sans-serif;
+  --h2: 700 3rem "Overpass", Arial, Helvetica, sans-serif;
+  --h3: 600 2.25rem "Overpass", Arial, Helvetica, sans-serif;
+  --h4: 500 1.5rem "Overpass", Arial, Helvetica, sans-serif;
+  --h5: 500 1.25rem "Work Sans", Arial, Helvetica, sans-serif;
+  --h6: 400 1.125rem "Work Sans", Arial, Helvetica, sans-serif;
+  --text-primary: 500 1rem "Inter", Arial, Helvetica, sans-serif;
+  --text-complement: 400 0.875rem "Inter", Arial, Helvetica, sans-serif;
+  --text-additional: 400 0.75rem "Inter", Arial, Helvetica, sans-serif;
+}
+
+/* Banner */
+
+._contents-banner,
+._contents-banner_end {
+  height: 25rem;
+
+  position: relative;
+
+  display: flex;
+}
+
+._bgs,
+._bgs_end {
+  height: inherit;
+}
+
+._hc-contents,
+._hc-contents_end {
+  display: grid;
+  align-content: center;
+  justify-content: start;
+}
+
+._hc-ime,
+._hc-ime_end {
+  position: inherit;
+  z-index: 2;
+
+  display: flex;
+
+  width: 100%;
+  max-width: 95rem;
+
+  margin: auto;
+  padding: 2rem;
+}
+
+._hc-contents h1 {
+  font: var(--h1);
+  font-weight: 800;
+  color: var(--color-eight);
+
+  letter-spacing: 8px;
+
+  margin-top: 15px;
+}
+
+._background {
+  background-image: url(https://d8a923b1h5a1n.cloudfront.net/DcpX1TgC/29_03_2022/dMrMR8psXNl2.jpg);
+}
+
+/* Banner - Start */
+
+._hc-ime {
+  padding-left: 13vw;
+}
+
+._hc-details {
+  font: var(--text-complement);
+  color: var(--color-btn-ony);
+
+  display: flex;
+  align-items: center;
+}
+
+._hc-details i {
+  background: var(--color-btn-ony);
+
+  height: 2px;
+  width: 1rem;
+
+  margin-right: 10px;
+}
+
+/* Banner End */
+
+._hc-ime_end {
+  justify-content: center;
+}
+
+._background_end {
+  background-image: url(https://d8a923b1h5a1n.cloudfront.net/DcpX1TgC/22_04_2022/0oGPxGL8NySM.jpg);
+}
+
+._hc-contents_end h2 {
+  font: var(--h2);
+  font-size: 2.5rem;
+  color: var(--color-eight);
+
+  text-align: center;
+}
+
+.ime ._nconfig-fzTx {
+  color: var(--color-307);
+
+  width: max-content;
+  margin: 15px auto auto auto;
+}
+
+/* List Main */
+
+._contents-history {
+  padding: 135px 20px;
+  margin: auto;
+
+  max-width: 680px;
+}
+
+._hys-list {
+  display: grid;
+  gap: 18px;
+}
+
+._contents-history li,
+._contents-history a {
+  font: var(--font-207);
+
+  text-align: justify;
+  line-height: 30px;
+
+  text-underline-offset: 2px;
+}
+
+._contents-history a:hover {
+  color: var(--effect-401);
+}
+
+._hys-list ol {
+  display: grid;
+  gap: 15px;
+}
+
+.ime-hyslist_block li {
+  width: 18rem;
+  border-radius: 5px;
+}
+
+.ime-hyslist_block h5 {
+  text-align: center;
+  padding: 10px 15px;
+  color: var(--color-303);
+}
+
+.i-block_486 {
+  background-color: var(--color-twelve);
+}
+
+.i-block_510 {
+  background-color: var(--color-four);
+}
+
+.i-block_156 {
+  background-color: var(--color-five);
+}
+
+.i-block_365 {
+  background-color: var(--color-two);
+}
+
+.i-block_951 {
+  background-color: var(--color-three);
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+  ._hc-ime {
+    padding-left: 2rem;
+  }
+  ._hc-contents h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  ._contents-history {
+    padding: 50px 20px;
+  }
+
+  .ime-hyslist_block li {
+    width: inherit;
+  }
+
+  ._hc-contents_end h2 {
+    font-size: 2rem;
+  }
+
+  ._hc-contents_end h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  ._hc-ime,
+  ._hc-ime_end {
+    padding: 1rem;
+  }
+
+  ._hc-contents h1 {
+    font-size: 2rem;
+  }
+
+  ._contents-history {
+    padding: 50px 12px;
+  }
+
+  ._hc-contents_end h2 {
+    font-size: 1.5rem;
+  }
+}
